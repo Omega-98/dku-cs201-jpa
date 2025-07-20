@@ -1,0 +1,11 @@
+Points:
+  E-1.1.1-HelloWorld10: 1
+  E-1.1.2-UseArgument: 1
+  E-1.1.3-Triangle: 1
+courseID: cs201
+hwID: HW0
+jpax:
+- E-1.1.1-HelloWorld10
+- E-1.1.2-UseArgument
+- E-1.1.3-Triangle
+sessionID: CS201

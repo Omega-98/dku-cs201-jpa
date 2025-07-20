@@ -1,0 +1,5 @@
+jpa_id: chap1/section-1.2/E-1.2.30-UniformRandom
+main: UniformRandom.java
+to_be_submitted:
+- UniformRandom.java
+- .v1
