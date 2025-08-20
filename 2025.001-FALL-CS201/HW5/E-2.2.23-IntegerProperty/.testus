@@ -1,0 +1,5 @@
+jpa_id: chap2/section-2.2/E-2.2.23-IntegerProperty
+main: IntegerProperty.java
+to_be_submitted:
+- IntegerProperty.java
+- .v1

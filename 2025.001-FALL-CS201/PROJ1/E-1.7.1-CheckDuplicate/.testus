@@ -1,0 +1,5 @@
+jpa_id: chap1/section-1.7/E-1.7.1-CheckDuplicate
+main: CheckDuplicate.java
+to_be_submitted:
+- CheckDuplicate.java
+- .v1

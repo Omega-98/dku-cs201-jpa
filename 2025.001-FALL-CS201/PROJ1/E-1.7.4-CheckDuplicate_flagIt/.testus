@@ -1,0 +1,5 @@
+jpa_id: chap1/section-1.7/E-1.7.4-CheckDuplicate_flagIt
+main: CheckDuplicate_flagIt.java
+to_be_submitted:
+- CheckDuplicate_flagIt.java
+- .v1

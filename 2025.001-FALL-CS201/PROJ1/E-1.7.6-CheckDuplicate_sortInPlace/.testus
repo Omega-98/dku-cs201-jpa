@@ -1,0 +1,5 @@
+jpa_id: chap1/section-1.7/E-1.7.6-CheckDuplicate_sortInPlace
+main: CheckDuplicate_sortInPlace.java
+to_be_submitted:
+- CheckDuplicate_sortInPlace.java
+- .v1
