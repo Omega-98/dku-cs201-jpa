@@ -11,4 +11,9 @@ cmd = 'java --enable-preview -jar %s ' % jarfile
 print("Run SAG client: %s" % os.path.abspath(__file__))
 cmd = cmd+  ' '.join(sys.argv[1:])
 #print(cmd)
+if sys.argv[1] == 'submit':
+   fname = 'wdir_msg/compile.err'
+   if os.path.exists(fname):
+      open(fname,'w').write('')
+   
 os.system(cmd)
