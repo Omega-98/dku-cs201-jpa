@@ -45,7 +45,9 @@ try:
    home = os.environ['HOME']
    fname = '%s/.sagrc'% home
    if not os.path.exists(fname):
-      msg = '   ~/.sagrc not found. Check your email for SAG Password Set/Reset.'
+      msg = '''    File ~/.sagrc not found. Check your email for SAG Password Set/Reset.
+    Or, find office hour to resolve the initial setup issue. 
+'''
       dash("Error", msg)
       pass
 except:
