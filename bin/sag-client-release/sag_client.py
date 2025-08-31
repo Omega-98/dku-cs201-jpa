@@ -20,16 +20,36 @@ def is_powershell():
  
 try :
    import psutil
-   if is_powershell():
-      msg = "   Switch to use bash/gitbash to avoid errors"
-      dash("Warning You are in PowerShell", msg)
-
 except:
    msg = "   Please run `pip install psutil` in your terminal"
    dash('Installation recommended:', msg)
-
    pass
 
+
+try :
+   import yaml
+except:
+   msg = "   Please run `pip install yaml` in your terminal"
+   dash('Installation recommended:', msg)
+   pass
+
+try:
+   import psutil
+   if is_powershell():
+      msg = "   Switch to use bash/gitbash to avoid errors"
+      dash("Warning You are in PowerShell", msg)
+except:
+   pass
+
+try:
+   home = os.environ['HOME']
+   fname = '%s/.sagrc'% home
+   if not os.path.exists(fname):
+      msg = '   ~/.sagrc not found. Check your email for SAG Password Set/Reset.'
+      dash("Error", msg)
+      pass
+except:
+   pass
 
 cwd = os.path.dirname(__file__)
 
