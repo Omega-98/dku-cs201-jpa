@@ -1,6 +1,22 @@
 #!/usr/bin/env python
 
 import sys, os
+
+
+
+def is_powershell():
+    return "PSModulePath" in os.environ
+
+if is_powershell():
+   print()
+   print('='*60)
+   print('User Error:')
+   print('='*60)
+   print("   Error: You are running in PowerShell, switch to bash/gitbash shell!")
+   print('\n'*2)
+   
+   exit(0)
+
 cwd = os.path.dirname(__file__)
 
 jarfile = cwd + '/'+ 'repolab_sag_client.jar'
