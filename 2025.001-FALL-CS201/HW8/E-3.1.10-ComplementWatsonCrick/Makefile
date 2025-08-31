@@ -3,26 +3,34 @@
 CLIENT = "../../../bin/sag-client-release/sag_client.py"
 TARGET = ComplementWatsonCrick.java
 COMPILE = javac
-.PHONY: submit client info status compile init-pull
+.PHONY: submit client info status compile init-pull check-python
 
-info:
+.PHONY: check-python
+
+check-python:
+	@echo "Checking for Python..."
+	@(command -v python >/dev/null 2>&1 || where python >nul 2>nul) && \
+		(echo "✅ Python found: $$(python --version 2>&1 || python3 --version)") || \
+		(echo "❌ Python not found, please install it." && exit 1)
+
+info: check-python
 	@echo "Usage: make submit|info|client|status|hw_stat|compile"
 
-compile:
+compile: check-python
 	/bin/rm -f *.class
 	${COMPILE} ${TARGET}
 
-submit: 
+submit: check-python
 	@${CLIENT}  submit 
 
-status:
+status: check-python
 	@${CLIENT}   status 
 
-hw_stat:
+hw_stat: check-python
 	@${CLIENT}  hw_stat 
 
-rpt:
+rpt: check-python
 	@${CLIENT}  rpt
 
-init-pull:
+init-pull: check-python
 	@${CLIENT} init-pull 
