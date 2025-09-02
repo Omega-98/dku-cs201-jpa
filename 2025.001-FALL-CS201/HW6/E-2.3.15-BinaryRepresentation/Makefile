@@ -13,6 +13,7 @@ check-python:
 		(echo "✅ Python found: $$(python --version 2>&1 || python3 --version)") || \
 		(echo "❌ Python not found, please install it." && exit 1)
 
+
 info: check-python
 	@echo "Usage: make submit|info|client|status|hw_stat|compile"
 
