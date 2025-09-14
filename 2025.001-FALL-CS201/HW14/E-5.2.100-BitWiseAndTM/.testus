@@ -1,0 +1,6 @@
+jpa_id: chap5/section-5.2/E-5.2.100-BitWiseAndTM
+main: TuringMachine.java
+to_be_submitted:
+- Tape.java
+- ab.txt
+- .v1
