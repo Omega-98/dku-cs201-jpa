@@ -1,0 +1,13 @@
+Points:
+  E-6.0.100-TOY_Multiply: 1
+  E-6.0.102-TOY_GCD: 1
+  E-6.0.103-Chop_v1: 1
+  E-6.1.26-DNAEncoder: 1
+courseID: cs201
+hwID: HW16
+jpax:
+- E-6.0.100-TOY_Multiply
+- E-6.0.102-TOY_GCD
+- E-6.0.103-Chop_v1
+- E-6.1.26-DNAEncoder
+sessionID: CS201

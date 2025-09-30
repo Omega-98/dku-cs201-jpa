@@ -1,0 +1,5 @@
+jpa_id: chap6/section-6.1/E-6.1.26-DNAEncoder
+main: DNAEncoder.java
+to_be_submitted:
+- DNAEncoder.java
+- .v1

@@ -1,0 +1,11 @@
+Points:
+  E-6.4.3-TOY_PeekAt: 1
+  E-6.4.4-SimulatePunchCard: 1
+  E-6.4.5-InstMultiply: 1
+courseID: cs201
+hwID: HW17
+jpax:
+- E-6.4.3-TOY_PeekAt
+- E-6.4.4-SimulatePunchCard
+- E-6.4.5-InstMultiply
+sessionID: CS201

@@ -1,0 +1,5 @@
+jpa_id: chap6/section-6.1/E-6.0.100-TOY_Multiply
+main: TOY.java
+to_be_submitted:
+- multiply.toy
+- .v1
