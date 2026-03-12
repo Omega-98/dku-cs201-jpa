@@ -1,0 +1,17 @@
+Points:
+  E-1.2.18-EuclideanDistance: 1
+  E-1.2.22-Calculation: 1
+  E-1.2.28-OrderCheck: 1
+  E-1.2.30-UniformRandom: 1
+  E-1.2.33-GreatCircle: 1
+  E-1.2.34-Threesort: 1
+courseID: cs201
+hwID: HW1
+jpax:
+- E-1.2.18-EuclideanDistance
+- E-1.2.22-Calculation
+- E-1.2.28-OrderCheck
+- E-1.2.30-UniformRandom
+- E-1.2.33-GreatCircle
+- E-1.2.34-Threesort
+sessionID: CS201
