@@ -57,7 +57,7 @@ cwd = os.path.dirname(__file__)
 
 jarfile = cwd + '/'+ 'repolab_sag_client.jar'
 
-cmd = 'java --enable-preview -jar %s ' % jarfile
+cmd = 'java --enable-preview -jar "%s" ' % jarfile
 #cmd = 'java  -jar %s ' % jarfile
 #print(cmd)
 print("Run SAG client: %s" % os.path.abspath(__file__))
