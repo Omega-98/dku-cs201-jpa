@@ -1,0 +1,5 @@
+jpa_id: chap1/section-1.5/E-1.5.3-AverageStd
+main: AverageStd.java
+to_be_submitted:
+- AverageStd.java
+- .v1

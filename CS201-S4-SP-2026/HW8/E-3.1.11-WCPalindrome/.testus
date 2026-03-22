@@ -1,0 +1,5 @@
+jpa_id: chap3/section-3.1/E-3.1.11-WCPalindrome
+main: WCPalindrome.java
+to_be_submitted:
+- WCPalindrome.java
+- .v1
