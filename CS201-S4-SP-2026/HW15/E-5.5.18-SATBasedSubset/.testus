@@ -1,0 +1,5 @@
+jpa_id: chap5/section-5.5/E-5.5.18-SATBasedSubset
+main: SATBasedSubset.java
+to_be_submitted:
+- SATBasedSubset.java
+- .v1

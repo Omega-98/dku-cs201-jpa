@@ -1,0 +1,9 @@
+jpa_id: chap4/section-4.2/E-4.2.102-LRS_v2
+main: LRS_v2.java
+to_be_submitted:
+- LRS_v2.java
+- LRS_v2.java
+- LazyString.java
+- LazyString.java
+- MergeLazyString.java
+- .v1
