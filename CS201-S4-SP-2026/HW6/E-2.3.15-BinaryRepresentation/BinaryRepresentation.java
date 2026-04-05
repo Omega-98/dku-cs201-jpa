@@ -11,19 +11,22 @@ public class BinaryRepresentation
     
     public static String ConvertToBinary(int n){
     // Complete the code here, see README on course website for problem description and instructions.
-        recur_depth++;
+        
         String result;
         if(n==0){
-            result =  String.valueOf(0);
+            return "";
         }
+        
+        recur_depth++;
+        result = ConvertToBinary(n/2) + n%2;
         for(int i=0; i<recur_depth; i++){
             System.out.print("  "); 
         }      
-
-        result = n%2 + ConvertToBinary(n/2);      
-        System.out.printf("%d --> %s\n", n, result);      
         
+              
+        System.out.printf("%d --> %s\n", n, result);      
         recur_depth--;
+    
         return result;
     }
 }
