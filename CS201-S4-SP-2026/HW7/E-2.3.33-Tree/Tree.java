@@ -14,7 +14,7 @@ public class Tree {
         
         StdDraw.line(x, y, cx, cy); // draw the trunk
                 
-        if (n == 0) return;
+        if (n==0) return;
 
         // Next, we are recursively draw 3 branches 
         
@@ -32,13 +32,15 @@ public class Tree {
           Note: The order of above 1,2,3 (middle, right, left)  is important to pass SAG. 
          */
         // Complete the code here, see README on course website for problem description and instructions.
+    
+            tree(n - 1, cx, cy, a + bendAngle, branchRadius * (1 - branchRatio)); //middle
+    
+            tree(n - 1, cx, cy, a + bendAngle - branchAngle, branchRadius * branchRatio); //right
 
-        // Complete the code here, see README on course website for problem description and instructions.
-
-
-
+            tree(n - 1, cx, cy, a + bendAngle + branchAngle, branchRadius * branchRatio); //left
 
     }
+
 
     public static void main(String[] args) {
         int n = Integer.parseInt(args[0]);
