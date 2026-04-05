@@ -32,6 +32,8 @@ public class Tree {
           Note: The order of above 1,2,3 (middle, right, left)  is important to pass SAG. 
          */
         // Complete the code here, see README on course website for problem description and instructions.
+
+        // do not use if(n>1) here, since the function will return when n=1. It still need a branch and goes to n=0.
     
             tree(n - 1, cx, cy, a + bendAngle, branchRadius * (1 - branchRatio)); //middle
     
