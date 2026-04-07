@@ -1,0 +1,5 @@
+jpa_id: chap5/section-5.1/E-5.1.6-VowelsInOrder
+main: VowelsInOrder.java
+to_be_submitted:
+- VowelsInOrder.java
+- .v1

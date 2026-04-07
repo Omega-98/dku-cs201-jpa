@@ -1,0 +1,15 @@
+Points:
+  E-5.2.0-TuringMachine: 1
+  E-5.2.100-BitWiseAndTM: 1
+  E-5.2.3-TMSimulator: 1
+  E-5.2.8-TuringMachine: 1
+  E-5.2.99-UnaryAddTM: 1
+courseID: cs201
+hwID: HW14
+jpax:
+- E-5.2.0-TuringMachine
+- E-5.2.3-TMSimulator
+- E-5.2.8-TuringMachine
+- E-5.2.99-UnaryAddTM
+- E-5.2.100-BitWiseAndTM
+sessionID: CS201

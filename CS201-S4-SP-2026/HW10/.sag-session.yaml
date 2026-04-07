@@ -1,0 +1,17 @@
+Points:
+  E-3.3.100-LazyString: 1
+  E-3.3.103-CardiodAndMandelbrot: 1
+  E-4.2.102-LRS_v2: 1
+  E-4.2.16-MergeSort: 1
+  E-4.2.6-InsertionSortTrace: 1
+  E-4.2.7-MergesortTrace: 1
+courseID: cs201
+hwID: HW10
+jpax:
+- E-3.3.103-CardiodAndMandelbrot
+- E-4.2.6-InsertionSortTrace
+- E-4.2.7-MergesortTrace
+- E-4.2.16-MergeSort
+- E-3.3.100-LazyString
+- E-4.2.102-LRS_v2
+sessionID: CS201
