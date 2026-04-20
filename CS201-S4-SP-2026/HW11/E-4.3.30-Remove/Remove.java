@@ -43,9 +43,22 @@ public class Remove
         // Hint: what would be the corner case to consider? 
 
         // Complete the code here, see README on course website for problem description and instructions.
+        LinkNode current = head; // current and head point to the same LinkList
+        while(head != null && head.value.equals(key)){
+            head = head.next;
+        }
+        if(head == null){
+            return null;
+        }
+        while(current.next != null){
+            if(current.next.value.equals(key)){
+                current.next = current.next.next;
+            }else{
+                current = current.next;
+            }
+        }
 
-
-
+        return head;
 
     }
 }
