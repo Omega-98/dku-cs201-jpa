@@ -1,0 +1,2068 @@
+   FAIL : BST_v2.1.out -- /Users/jlong/work/Gitee/RELEASE-CS201-REPO3/book-solution/sols-repo/chap4/section-4.4/E-4.0.0-BST_v2/BST_v2.1.out 
+diff stdout(up to 1000 lines):                                            ......
+=============================
+      get 15 : null
+      put: (14, 6)
+    - inOrder: 14:6
+    ?         -----
+    
+    + inOrder:
+      rangeCount: unrecogized op
+      rank: unrecogized op
+      rank: unrecogized op
+      put: (16, 1)
+    - inOrder: 14:6, 16:1
+    + inOrder:
+      rangeCount: unrecogized op
+      rank: unrecogized op
+      rank: unrecogized op
+      put: (11, 23)
+      put: (27, 13)
+      put: (11, 19)
+      put: (9, 13)
+      put: (5, 14)
+      put: (11, 21)
+      put: (24, 14)
+      put: (19, 14)
+      put: (18, 1)
+      put: (4, 7)
+      put: (9, 29)
+      remove_max_r: unrecogized op
+      put: (28, 24)
+      put: (21, 10)
+      remove_min_r: unrecogized op
+      floor: unrecogized op
+    - min: 4
+    + min: null
+      put: (18, 20)
+      put: (16, 27)
+      put: (7, 26)
+    - get 7 : 26
+    + get 7 : null
+      put: (15, 1)
+      put: (19, 26)
+      put: (29, 17)
+      put: (12, 4)
+      balanced: unrecogized op
+      put: (19, 29)
+      put: (24, 3)
+      put: (5, 14)
+      put: (13, 11)
+    - get 14 : 6
+    ?          ^
+    
+    + get 14 : null
+    ?          ^^^^
+    
+      put: (8, 21)
+      put: (16, 19)
+      put: (3, 27)
+      put: (9, 14)
+      put: (20, 21)
+      put: (5, 24)
+    - inOrder: 3:27, 4:7, 5:24, 7:26, 8:21, 9:14, 11:21, 12:4, 13:11, 14:6, 15:1, 16:19, 18:20, 19:29, 20:21, 21:10, 24:3, 27:13, 28:24, 29:17
+    + inOrder:
+      rangeSearch: unrecogized op
+      rank: unrecogized op
+      rank: unrecogized op
+      put: (7, 13)
+      put: (22, 17)
+      put: (28, 10)
+      put: (2, 7)
+      put: (12, 14)
+      put: (29, 12)
+    - contains: true
+    ?           ^^^
+    
+    + contains: false
+    ?           ^^^^
+    
+      put: (16, 23)
+      put: (15, 16)
+    - contains: true
+    ?           ^^^
+    
+    + contains: false
+    ?           ^^^^
+    
+      put: (21, 15)
+      max: unrecogized op
+    - get 4 : 7
+    ?         ^
+    
+    + get 4 : null
+    ?         ^^^^
+    
+      get 17 : null
+      put: (12, 17)
+    - inOrder: 2:7, 3:27, 4:7, 5:24, 7:13, 8:21, 9:14, 11:21, 12:17, 13:11, 14:6, 15:16, 16:23, 18:20, 19:29, 20:21, 21:15, 22:17, 24:3, 27:13, 28:10, 29:12
+    + inOrder:
+      rangeCount: unrecogized op
+      rank: unrecogized op
+      rank: unrecogized op
+      remove_min_iter: unrecogized op
+      rank: unrecogized op
+      get 26 : null
+      put: (0, 27)
+      rank: unrecogized op
+      put: (11, 1)
+      put: (3, 4)
+      ceiling: unrecogized op
+    - inOrder: 0:27, 2:7, 3:4, 4:7, 5:24, 7:13, 8:21, 9:14, 11:1, 12:17, 13:11, 14:6, 15:16, 16:23, 18:20, 19:29, 20:21, 21:15, 22:17, 24:3, 27:13, 28:10, 29:12
+    + inOrder:
+      rangeCount: unrecogized op
+      rank: unrecogized op
+      rank: unrecogized op
+      size: unrecogized op
+      remove: unrecogized op
+      floor: unrecogized op
+      put: (25, 28)
+      ceiling: unrecogized op
+      put: (16, 20)
+      leaves: unrecogized op
+      put: (7, 23)
+      put: (1, 19)
+      put: (28, 20)
+    - inOrder: 0:27, 1:19, 2:7, 3:4, 4:7, 5:24, 7:23, 8:21, 9:14, 11:1, 12:17, 13:11, 14:6, 15:16, 16:20, 18:20, 19:29, 20:21, 21:15, 22:17, 24:3, 25:28, 27:13, 28:20, 29:12
+    + inOrder:
+      rangeSearch: unrecogized op
+      rank: unrecogized op
+      rank: unrecogized op
+      put: (13, 9)
+      put: (9, 22)
+      put: (19, 1)
+      remove_min_r: unrecogized op
+      put: (9, 26)
+      put: (15, 21)
+      put: (19, 11)
+    - get 29 : 12
+    ?          ^^
+    
+    + get 29 : null
+    ?          ^^^^
+    
+      put: (5, 11)
+      put: (6, 18)
+    - get 6 : 18
+    + get 6 : null
+      put: (9, 21)
+      max: unrecogized op
+      leaves: unrecogized op
+    - get 14 : 6
+    ?          ^
+    
+    + get 14 : null
+    ?          ^^^^
+    
+      remove_min_iter: unrecogized op
+      put: (19, 8)
+      put: (20, 3)
+      put: (13, 6)
+    - get 27 : 13
+    ?          ^^
+    
+    + get 27 : null
+    ?          ^^^^
+    
+      put: (25, 27)
+
+   FAIL : BST_v2.2.out -- /Users/jlong/work/Gitee/RELEASE-CS201-REPO3/book-solution/sols-repo/chap4/section-4.4/E-4.0.0-BST_v2/BST_v2.2.out 
+diff stdout(up to 1000 lines):                                            ......
+=============================
+      put: (24, 2)
+      get 25 : null
+      put: (1, 26)
+      put: (11, 8)
+      ceiling: unrecogized op
+      put: (23, 20)
+      put: (22, 14)
+      put: (15, 16)
+      remove: unrecogized op
+      put: (14, 12)
+      put: (23, 11)
+      put: (28, 15)
+      floor: unrecogized op
+    - inOrder: 1:26, 11:8, 14:12, 15:16, 22:14, 23:11, 24:2, 28:15
+    + inOrder:
+      rangeSearch: unrecogized op
+      rank: unrecogized op
+      rank: unrecogized op
+      put: (17, 22)
+      put: (23, 25)
+      get 29 : null
+      put: (13, 19)
+      balanced: unrecogized op
+      put: (27, 19)
+      put: (18, 0)
+      put: (10, 20)
+      put: (12, 23)
+      put: (19, 9)
+      put: (5, 7)
+      put: (17, 3)
+      put: (18, 7)
+      put: (6, 13)
+      balanced: unrecogized op
+      rank: unrecogized op
+      put: (6, 12)
+      put: (28, 27)
+      put: (29, 16)
+      balanced: unrecogized op
+      put: (1, 27)
+      put: (18, 1)
+      put: (29, 27)
+    - get 10 : 20
+    ?          ^^
+    
+    + get 10 : null
+    ?          ^^^^
+    
+      put: (5, 24)
+      put: (25, 19)
+      put: (0, 5)
+      remove_max_r: unrecogized op
+    - height: 9
+    ?         ^
+    
+    + height: 0
+    ?         ^
+    
+      put: (12, 2)
+      rank: unrecogized op
+      put: (4, 1)
+      rank: unrecogized op
+    - min: 0
+    + min: null
+      floor: unrecogized op
+      rank: unrecogized op
+      put: (26, 11)
+    - get 26 : 11
+    ?          ^^
+    
+    + get 26 : null
+    ?          ^^^^
+    
+      put: (16, 17)
+      ceiling: unrecogized op
+      put: (13, 3)
+      put: (29, 1)
+      put: (20, 20)
+      put: (13, 18)
+      put: (12, 17)
+      put: (1, 19)
+      put: (7, 9)
+      put: (5, 18)
+      put: (18, 20)
+      put: (5, 26)
+      put: (1, 27)
+    - get 19 : 9
+    ?          ^
+    
+    + get 19 : null
+    ?          ^^^^
+    
+      get 2 : null
+      put: (6, 24)
+    - inOrder: 0:5, 1:27, 4:1, 5:26, 6:24, 7:9, 10:20, 11:8, 12:17, 13:18, 14:12, 15:16, 16:17, 17:3, 18:20, 19:9, 20:20, 22:14, 23:25, 24:2, 25:19, 26:11, 27:19, 28:27, 29:1
+    + inOrder:
+      rangeCount: unrecogized op
+      rank: unrecogized op
+      rank: unrecogized op
+    - get 25 : 19
+    ?          ^^
+    
+    + get 25 : null
+    ?          ^^^^
+    
+      max: unrecogized op
+      put: (1, 28)
+      put: (28, 26)
+      put: (22, 18)
+    - get 4 : 1
+    ?         ^
+    
+    + get 4 : null
+    ?         ^^^^
+    
+    - height: 10
+    ?         -
+    
+    + height: 0
+      get 3 : null
+    - get 26 : 11
+    ?          ^^
+    
+    + get 26 : null
+    ?          ^^^^
+    
+      put: (3, 7)
+    - get 23 : 25
+    ?          ^^
+    
+    + get 23 : null
+    ?          ^^^^
+    
+      put: (9, 23)
+      remove_max_r: unrecogized op
+      put: (26, 11)
+      leaves: unrecogized op
+    - min: 0
+    + min: null
+      put: (9, 17)
+      put: (5, 21)
+      put: (7, 22)
+      put: (20, 16)
+    - min: 0
+    + min: null
+      put: (28, 18)
+    - get 18 : 20
+    ?          ^^
+    
+    + get 18 : null
+    ?          ^^^^
+    
+      put: (11, 9)
+      put: (6, 28)
+      remove_min_iter: unrecogized op
+      printKeys: unrecogized op
+      put: (12, 2)
+      put: (20, 0)
+      size: unrecogized op
+      put: (29, 26)
+      put: (1, 23)
+      put: (20, 10)
+    - min: 0
+    + min: null
+      put: (6, 0)
+      put: (26, 9)
+      put: (28, 7)
+      put: (19, 12)
+      remove_max_iter: unrecogized op
+    - get 27 : 19
+    ?          ^^
+    
+    + get 27 : null
+    ?          ^^^^
+    
+      remove_min_r: unrecogized op
+      put: (0, 4)
+      put: (26, 0)
+      put: (24, 21)
+      put: (22, 3)
+      put: (0, 2)
+      size: unrecogized op
+      put: (13, 19)
+      put: (5, 17)
+      put: (12, 22)
+      ceiling: unrecogized op
+      put: (1, 5)
+    - get 20 : 10
+    ?          ^^
+    
+    + get 20 : null
+    ?          ^^^^
+    
+      ceiling: unrecogized op
+      put: (2, 21)
+      put: (8, 8)
+      put: (14, 2)
+      put: (8, 4)
+      put: (16, 29)
+      put: (24, 4)
+      put: (3, 17)
+      put: (19, 22)
+      put: (0, 25)
+      put: (29, 20)
+      leaves: unrecogized op
+    - get 28 : 7
+    ?          ^
+    
+    + get 28 : null
+    ?          ^^^^
+    
+    - height: 10
+    ?         -
+    
+    + height: 0
+      put: (1, 22)
+      put: (1, 19)
+      put: (0, 17)
+      put: (9, 4)
+    - get 4 : 1
+    ?         ^
+    
+    + get 4 : null
+    ?         ^^^^
+    
+      put: (16, 11)
+      put: (9, 15)
+      max: unrecogized op
+      max: unrecogized op
+      put: (20, 28)
+      put: (12, 0)
+      put: (21, 14)
+      put: (16, 10)
+    - min: 0
+    + min: null
+      put: (15, 1)
+      put: (15, 5)
+      put: (15, 6)
+      leaves: unrecogized op
+      put: (18, 20)
+      remove_min_iter: unrecogized op
+      put: (28, 4)
+      put: (10, 23)
+      put: (14, 1)
+      put: (10, 21)
+      printKeys: unrecogized op
+      leaves: unrecogized op
+      put: (19, 12)
+      put: (22, 29)
+      put: (1, 4)
+      put: (11, 29)
+      size: unrecogized op
+      put: (15, 21)
+      balanced: unrecogized op
+      put: (2, 3)
+      put: (14, 25)
+    - get 9 : 15
+    + get 9 : null
+      put: (4, 23)
+    - get 17 : 3
+    ?          ^
+    
+    + get 17 : null
+    ?          ^^^^
+    
+      remove_max_iter: unrecogized op
+      put: (23, 21)
+      put: (4, 23)
+      put: (27, 6)
+    - height: 11
+    ?         ^^
+    
+    + height: 0
+    ?         ^
+    
+    - inOrder: 0:17, 1:4, 2:3, 3:17, 4:23, 5:17, 6:0, 7:22, 8:4, 9:15, 10:21, 11:29, 12:0, 13:19, 14:25, 15:21, 16:10, 17:3, 18:20, 19:12, 20:28, 21:14, 22:29, 23:21, 24:4, 25:19, 26:0, 27:6, 28:4, 29:20
+    + inOrder:
+      rangeCount: unrecogized op
+      rank: unrecogized op
+      rank: unrecogized op
+      put: (6, 25)
+      put: (23, 17)
+      put: (19, 27)
+      remove_max_r: unrecogized op
+      put: (21, 2)
+    - get 14 : 25
+    ?          ^^
+    
+    + get 14 : null
+    ?          ^^^^
+    
+      put: (6, 27)
+      put: (5, 14)
+      put: (12, 11)
+      put: (10, 7)
+      put: (8, 18)
+      put: (15, 1)
+    - get 11 : 29
+    ?          ^^
+    
+    + get 11 : null
+    ?          ^^^^
+    
+      put: (10, 0)
+      put: (28, 16)
+      put: (22, 13)
+      put: (5, 14)
+      put: (26, 28)
+    - get 13 : 19
+    ?          ^^
+    
+    + get 13 : null
+    ?          ^^^^
+    
+      put: (14, 3)
+      put: (25, 28)
+      put: (12, 26)
+      remove_max_r: unrecogized op
+      put: (16, 0)
+      remove_min_r: unrecogized op
+      put: (15, 18)
+      put: (3, 13)
+    - get 27 : 6
+    ?          ^
+    
+    + get 27 : null
+    ?          ^^^^
+    
+    + inOrder:
+    - inOrder: 0:17, 1:4, 2:3, 3:13, 4:23, 5:14, 6:27, 7:22, 8:18, 9:15, 10:0, 11:29, 12:26, 13:19, 14:3, 15:18, 16:0, 17:3, 18:20, 19:27, 20:28, 21:2, 22:13, 23:17, 24:4, 25:28, 26:28, 27:6, 28:16, 29:20
+    - rangeSearch: unrecogized op
+    - rank: unrecogized op
+    ?    ^
+    
+    + rangeSearch: unrecogized op
+    ?    ^^^^^^^^
+    
+      rank: unrecogized op
+    + rank: unrecogized op
+    - get 28 : 16
+    ?          ^^
+    
+    + get 28 : null
+    ?          ^^^^
+    
+      put: (14, 14)
+      balanced: unrecogized op
+    - contains: true
+    ?           ^^^
+    
+    + contains: false
+    ?           ^^^^
+    
+    - get 9 : 15
+    + get 9 : null
+      remove_min_iter: unrecogized op
+      put: (5, 14)
+      put: (15, 15)
+      max: unrecogized op
+    - get 9 : 15
+    + get 9 : null
+      remove_min_r: unrecogized op
+      floor: unrecogized op
+      put: (17, 16)
+      put: (22, 20)
+      max: unrecogized op
+      put: (7, 5)
+      put: (19, 11)
+      put: (24, 16)
+      put: (18, 17)
+      put: (5, 1)
+    - get 24 : 16
+    ?          ^^
+    
+    + get 24 : null
+    ?          ^^^^
+    
+      put: (24, 5)
+      put: (5, 0)
+      max: unrecogized op
+      put: (16, 1)
+      put: (0, 1)
+      put: (15, 21)
+      ceiling: unrecogized op
+      put: (13, 0)
+      put: (0, 8)
+      put: (1, 8)
+      put: (21, 20)
+      put: (16, 3)
+    - min: 0
+    + min: null
+      put: (10, 11)
+      remove_min_r: unrecogized op
+    - get 24 : 5
+    ?          ^
+    
+    + get 24 : null
+    ?          ^^^^
+    
+      put: (26, 19)
+      put: (1, 13)
+      put: (21, 15)
+      put: (23, 15)
+      size: unrecogized op
+    - min: 0
+    + min: null
+      put: (5, 2)
+      put: (24, 17)
+      put: (6, 9)
+      put: (18, 23)
+    - get 23 : 15
+    ?          ^^
+    
+    + get 23 : null
+    ?          ^^^^
+    
+      put: (23, 24)
+      put: (25, 5)
+    - inOrder: 0:8, 1:13, 2:3, 3:13, 4:23, 5:2, 6:9, 7:5, 8:18, 9:15, 10:11, 11:29, 12:26, 13:0, 14:14, 15:21, 16:3, 17:16, 18:23, 19:11, 20:28, 21:15, 22:20, 23:24, 24:17, 25:5, 26:19, 27:6, 28:16, 29:20
+    + inOrder:
+      rangeSearch: unrecogized op
+      rank: unrecogized op
+      rank: unrecogized op
+      put: (7, 12)
+      put: (18, 28)
+      put: (26, 15)
+      put: (26, 17)
+      put: (2, 15)
+      put: (27, 7)
+      put: (14, 5)
+    - get 28 : 16
+    ?          ^^
+    
+    + get 28 : null
+    ?          ^^^^
+    
+      remove_min_iter: unrecogized op
+      put: (13, 21)
+      put: (13, 13)
+      put: (23, 7)
+      put: (26, 15)
+      put: (29, 24)
+      put: (18, 25)
+      put: (21, 23)
+      leaves: unrecogized op
+      put: (2, 6)
+    - get 20 : 28
+    ?          ^^
+    
+    + get 20 : null
+    ?          ^^^^
+    
+      remove_max_iter: unrecogized op
+      put: (16, 19)
+      put: (28, 25)
+      balanced: unrecogized op
+      put: (27, 10)
+    - inOrder: 0:8, 1:13, 2:6, 3:13, 4:23, 5:2, 6:9, 7:12, 8:18, 9:15, 10:11, 11:29, 12:26, 13:13, 14:5, 15:21, 16:19, 17:16, 18:25, 19:11, 20:28, 21:23, 22:20, 23:7, 24:17, 25:5, 26:15, 27:10, 28:25, 29:24
+    + inOrder:
+      rangeCount: unrecogized op
+      rank: unrecogized op
+      rank: unrecogized op
+      put: (25, 25)
+    - min: 0
+    + min: null
+      put: (12, 12)
+      max: unrecogized op
+    - height: 11
+    ?         ^^
+    
+    + height: 0
+    ?         ^
+    
+      put: (19, 13)
+      leaves: unrecogized op
+      put: (1, 7)
+      put: (2, 23)
+      put: (8, 7)
+      put: (9, 24)
+      remove_max_r: unrecogized op
+      put: (4, 26)
+      put: (28, 24)
+      balanced: unrecogized op
+      put: (2, 22)
+      put: (24, 24)
+      floor: unrecogized op
+      put: (12, 29)
+      put: (19, 5)
+      put: (7, 13)
+    - min: 0
+    + min: null
+      max: unrecogized op
+      put: (2, 5)
+      put: (21, 20)
+      put: (4, 24)
+      put: (22, 14)
+      leaves: unrecogized op
+      put: (1, 21)
+      put: (28, 14)
+      printKeys: unrecogized op
+    - get 17 : 16
+    ?          ^^
+    
+    + get 17 : null
+    ?          ^^^^
+    
+      remove_max_r: unrecogized op
+      put: (19, 23)
+      put: (18, 9)
+      put: (23, 14)
+      put: (2, 11)
+      put: (28, 22)
+      put: (11, 20)
+      remove_min_iter: unrecogized op
+      put: (20, 8)
+      put: (14, 10)
+    - get 12 : 29
+    ?          ^^
+    
+    + get 12 : null
+    ?          ^^^^
+    
+      put: (3, 8)
+      put: (17, 29)
+      put: (0, 27)
+      rank: unrecogized op
+      put: (28, 13)
+      put: (10, 5)
+      put: (20, 21)
+      put: (1, 1)
+      put: (17, 18)
+      remove_min_r: unrecogized op
+      put: (18, 1)
+      put: (29, 11)
+      max: unrecogized op
+      put: (27, 9)
+      put: (6, 2)
+      put: (2, 27)
+      put: (18, 23)
+      put: (25, 14)
+      remove_max_iter: unrecogized op
+      put: (19, 18)
+      put: (21, 17)
+      put: (27, 1)
+      remove: unrecogized op
+      put: (19, 14)
+      put: (10, 11)
+    + inOrder:
+    - inOrder: 0:27, 1:1, 2:27, 3:8, 4:24, 5:2, 6:2, 7:13, 8:7, 9:24, 10:11, 11:20, 12:29, 13:13, 14:10, 15:21, 16:19, 17:18, 18:23, 19:14, 20:21, 21:17, 22:14, 23:14, 24:24, 25:14, 26:15, 27:1, 28:13, 29:11
+    - rangeSearch: unrecogized op
+    - rank: unrecogized op
+    ?    ^
+    
+    + rangeSearch: unrecogized op
+    ?    ^^^^^^^^
+    
+    - rank: unrecogized op
+    - remove_max_r: unrecogized op
+    ?  ------- ^^^
+    
+    + rank: unrecogized op
+    ?   ^^
+    
+    - inOrder: 0:27, 1:1, 2:27, 3:8, 4:24, 5:2, 6:2, 7:13, 8:7, 9:24, 10:11, 11:20, 12:29, 13:13, 14:10, 15:21, 16:19, 17:18, 18:23, 19:14, 20:21, 21:17, 22:14, 23:14, 24:24, 25:14, 26:15, 27:1, 28:13, 29:11
+    + rank: unrecogized op
+    + remove_max_r: unrecogized op
+    + inOrder:
+      rangeCount: unrecogized op
+      rank: unrecogized op
+      rank: unrecogized op
+      put: (28, 8)
+    - min: 0
+    + min: null
+      put: (26, 26)
+      put: (13, 12)
+      put: (8, 21)
+      put: (3, 10)
+      put: (27, 3)
+      put: (7, 13)
+      put: (21, 17)
+      put: (28, 24)
+      put: (17, 16)
+      put: (5, 20)
+      put: (6, 18)
+      put: (10, 5)
+      put: (29, 10)
+    - min: 0
+    + min: null
+      put: (1, 14)
+    - inOrder: 0:27, 1:14, 2:27, 3:10, 4:24, 5:20, 6:18, 7:13, 8:21, 9:24, 10:5, 11:20, 12:29, 13:12, 14:10, 15:21, 16:19, 17:16, 18:23, 19:14, 20:21, 21:17, 22:14, 23:14, 24:24, 25:14, 26:26, 27:3, 28:24, 29:10
+    + inOrder:
+      rangeSearch: unrecogized op
+      rank: unrecogized op
+      rank: unrecogized op
+      put: (17, 27)
+      put: (5, 16)
+      leaves: unrecogized op
+      put: (15, 4)
+      put: (9, 18)
+      put: (5, 12)
+      put: (20, 12)
+      put: (13, 15)
+    - get 19 : 14
+    ?          ^^
+    
+    + get 19 : null
+    ?          ^^^^
+    
+      balanced: unrecogized op
+      put: (27, 0)
+      put: (24, 22)
+      put: (6, 12)
+    - height: 11
+    ?         ^^
+    
+    + height: 0
+    ?         ^
+    
+    - inOrder: 0:27, 1:14, 2:27, 3:10, 4:24, 5:12, 6:12, 7:13, 8:21, 9:18, 10:5, 11:20, 12:29, 13:15, 14:10, 15:4, 16:19, 17:27, 18:23, 19:14, 20:12, 21:17, 22:14, 23:14, 24:22, 25:14, 26:26, 27:0, 28:24, 29:10
+    + inOrder:
+      rangeSearch: unrecogized op
+      rank: unrecogized op
+      rank: unrecogized op
+      put: (7, 17)
+      put: (27, 18)
+      put: (18, 27)
+      put: (4, 25)
+      put: (6, 4)
+      put: (23, 7)
+      put: (13, 15)
+      put: (14, 26)
+      put: (0, 22)
+      put: (19, 5)
+      put: (24, 22)
+
+   FAIL : BST_v2.3.out -- /Users/jlong/work/Gitee/RELEASE-CS201-REPO3/book-solution/sols-repo/chap4/section-4.4/E-4.0.0-BST_v2/BST_v2.3.out 
+--- wdir_bist/E-4.0.0-BST_v2/BST_v2.3.out.actual.FAIL	2026-04-26 16:47:01
++++ /Users/jlong/work/Gitee/RELEASE-CS201-REPO3/book-solution/sols-repo/chap4/section-4.4/E-4.0.0-BST_v2/BST_v2.3.out	2025-08-12 17:23:54
+@@ -1,13 +1,13 @@
+ put: (9, 0)
+ put: (16, 27)
+-inOrder: 
++inOrder: 9:0, 16:27
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+ put: (2, 15)
+ put: (5, 21)
+ contains: false
+-min: null
++min: 2
+ put: (28, 24)
+ put: (9, 15)
+ put: (2, 11)
+@@ -21,7 +21,7 @@
+ put: (25, 27)
+ put: (27, 13)
+ put: (29, 10)
+-height: 0
++height: 6
+ put: (8, 12)
+ put: (17, 0)
+ remove_max_iter: unrecogized op
+@@ -67,7 +67,7 @@
+ put: (7, 13)
+ put: (21, 17)
+ size: unrecogized op
+-contains: false
++contains: true
+ put: (17, 0)
+ put: (25, 27)
+ put: (25, 18)
+@@ -85,9 +85,9 @@
+ put: (23, 18)
+ put: (27, 21)
+ balanced: unrecogized op
+-height: 0
++height: 8
+ remove_min_r: unrecogized op
+-get 28 : null
++get 28 : 24
+ put: (12, 15)
+ put: (1, 8)
+ put: (17, 12)
+@@ -95,13 +95,13 @@
+ put: (7, 8)
+ put: (25, 1)
+ put: (13, 22)
+-get 20 : null
++get 20 : 11
+ remove: unrecogized op
+ put: (23, 24)
+ put: (4, 29)
+-get 9 : null
++get 9 : 24
+ put: (7, 26)
+-get 10 : null
++get 10 : 7
+ put: (19, 14)
+ remove_max_iter: unrecogized op
+ size: unrecogized op
+@@ -115,18 +115,18 @@
+ remove_max_iter: unrecogized op
+ put: (18, 24)
+ put: (8, 12)
+-inOrder: 
++inOrder: 0:23, 1:2, 2:20, 4:29, 5:21, 6:19, 7:26, 8:12, 9:24, 10:7, 11:24, 12:15, 13:22, 14:7, 16:8, 17:12, 18:24, 19:14, 20:11, 21:15, 22:9, 23:24, 24:21, 25:1, 26:21, 27:20, 28:24, 29:17
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+-get 21 : null
++get 21 : 15
+ rank: unrecogized op
+-get 10 : null
++get 10 : 7
+ remove_min_iter: unrecogized op
+ put: (17, 10)
+-get 1 : null
++get 1 : 2
+ put: (22, 24)
+-inOrder: 
++inOrder: 0:23, 1:2, 2:20, 4:29, 5:21, 6:19, 7:26, 8:12, 9:24, 10:7, 11:24, 12:15, 13:22, 14:7, 16:8, 17:10, 18:24, 19:14, 20:11, 21:15, 22:24, 23:24, 24:21, 25:1, 26:21, 27:20, 28:24, 29:17
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -163,7 +163,7 @@
+ put: (0, 11)
+ put: (8, 16)
+ put: (13, 19)
+-get 9 : null
++get 9 : 24
+ size: unrecogized op
+ put: (5, 9)
+ put: (27, 4)
+@@ -171,29 +171,29 @@
+ put: (7, 5)
+ put: (26, 10)
+ put: (13, 24)
+-get 16 : null
++get 16 : 5
+ put: (22, 23)
+ put: (25, 23)
+ put: (22, 26)
+-get 7 : null
++get 7 : 5
+ put: (23, 28)
+ put: (7, 27)
+ put: (0, 7)
+ put: (29, 26)
+ put: (0, 6)
+ put: (8, 8)
+-min: null
++min: 0
+ put: (11, 28)
+ put: (21, 18)
+ remove_min_r: unrecogized op
+-get 21 : null
++get 21 : 18
+ put: (12, 3)
+-get 13 : null
+-get 18 : null
++get 13 : 24
++get 18 : 24
+ put: (11, 23)
+ put: (16, 0)
+ put: (17, 13)
+-height: 0
++height: 8
+ put: (13, 19)
+ put: (18, 15)
+ put: (12, 28)
+@@ -203,24 +203,24 @@
+ remove_max_r: unrecogized op
+ put: (3, 21)
+ size: unrecogized op
+-get 28 : null
++get 28 : 24
+ put: (6, 24)
+ put: (2, 29)
+ size: unrecogized op
+ put: (14, 3)
+-inOrder: 
++inOrder: 0:6, 1:2, 2:29, 3:21, 4:29, 5:9, 6:24, 7:27, 8:8, 9:11, 10:7, 11:23, 12:28, 13:19, 14:3, 15:3, 16:0, 17:13, 18:15, 19:4, 20:5, 21:18, 22:22, 23:28, 24:23, 25:23, 26:10, 27:4, 28:24, 29:26
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+ put: (1, 18)
+ put: (22, 16)
+-inOrder: 
++inOrder: 0:6, 1:18, 2:29, 3:21, 4:29, 5:9, 6:24, 7:27, 8:8, 9:11, 10:7, 11:23, 12:28, 13:19, 14:3, 15:3, 16:0, 17:13, 18:15, 19:4, 20:5, 21:18, 22:16, 23:28, 24:23, 25:23, 26:10, 27:4, 28:24, 29:26
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+ size: unrecogized op
+ put: (4, 4)
+-get 9 : null
++get 9 : 11
+ put: (18, 27)
+ put: (26, 26)
+ ceiling: unrecogized op
+@@ -264,9 +264,9 @@
+ put: (16, 22)
+ put: (27, 25)
+ put: (13, 26)
+-get 20 : null
++get 20 : 28
+ remove_max_iter: unrecogized op
+-min: null
++min: 0
+ put: (2, 16)
+ put: (1, 3)
+ put: (23, 26)
+@@ -275,13 +275,13 @@
+ put: (23, 18)
+ put: (27, 21)
+ ceiling: unrecogized op
+-height: 0
++height: 8
+ put: (24, 18)
+ put: (27, 24)
+ remove_max_r: unrecogized op
+ put: (15, 10)
+ floor: unrecogized op
+-get 12 : null
++get 12 : 29
+ rank: unrecogized op
+ max: unrecogized op
+ put: (17, 28)
+@@ -292,7 +292,7 @@
+ put: (12, 20)
+ put: (5, 14)
+ put: (19, 29)
+-inOrder: 
++inOrder: 0:15, 1:7, 2:16, 3:18, 4:4, 5:14, 6:22, 7:27, 8:23, 9:11, 10:15, 11:18, 12:20, 13:24, 14:15, 15:10, 16:22, 17:28, 18:16, 19:29, 20:28, 21:18, 22:23, 23:18, 24:18, 25:4, 26:27, 27:24, 28:24, 29:26
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -300,15 +300,15 @@
+ put: (21, 7)
+ put: (2, 10)
+ remove_max_iter: unrecogized op
+-get 3 : null
++get 3 : 18
+ put: (27, 24)
+-inOrder: 
++inOrder: 0:15, 1:7, 2:10, 3:18, 4:4, 5:14, 6:22, 7:27, 8:23, 9:11, 10:15, 11:18, 12:20, 13:24, 14:15, 15:10, 16:22, 17:1, 18:16, 19:29, 20:28, 21:7, 22:23, 23:18, 24:18, 25:4, 26:27, 27:24, 28:24, 29:26
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+ remove: unrecogized op
+ max: unrecogized op
+-height: 0
++height: 8
+ size: unrecogized op
+ put: (27, 15)
+ put: (17, 10)
+@@ -326,8 +326,8 @@
+ remove_max_iter: unrecogized op
+ put: (28, 20)
+ put: (13, 7)
+-get 23 : null
+-get 27 : null
++get 23 : 18
++get 27 : 15
+ put: (14, 4)
+ put: (13, 14)
+ put: (21, 12)
+@@ -337,23 +337,23 @@
+ remove_min_r: unrecogized op
+ put: (12, 5)
+ put: (12, 21)
+-height: 0
++height: 8
+ put: (29, 25)
+ rank: unrecogized op
+ put: (19, 14)
+ put: (0, 15)
+-get 11 : null
+-min: null
++get 11 : 18
++min: 0
+ printKeys: unrecogized op
+ ceiling: unrecogized op
+ put: (16, 7)
+ put: (24, 14)
+ put: (6, 19)
+-min: null
++min: 0
+ floor: unrecogized op
+ put: (15, 9)
+ put: (26, 20)
+-contains: false
++contains: true
+ put: (8, 26)
+ put: (10, 13)
+ put: (13, 9)
+@@ -369,7 +369,7 @@
+ put: (25, 29)
+ put: (13, 16)
+ put: (1, 9)
+-get 18 : null
++get 18 : 16
+ leaves: unrecogized op
+ put: (12, 29)
+ put: (29, 19)
+@@ -384,7 +384,7 @@
+ balanced: unrecogized op
+ remove_max_r: unrecogized op
+ put: (13, 8)
+-get 3 : null
++get 3 : 14
+ remove_max_r: unrecogized op
+ remove_max_r: unrecogized op
+ put: (25, 4)
+@@ -398,36 +398,36 @@
+ balanced: unrecogized op
+ put: (3, 7)
+ leaves: unrecogized op
+-height: 0
++height: 8
+ put: (16, 25)
+-inOrder: 
++inOrder: 0:15, 1:1, 2:9, 3:7, 4:13, 5:20, 6:19, 7:20, 8:26, 9:11, 10:29, 11:18, 12:19, 13:8, 14:4, 15:9, 16:25, 17:15, 18:16, 19:14, 20:28, 21:12, 22:23, 23:18, 24:5, 25:4, 26:24, 27:15, 28:20, 29:19
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+-contains: false
++contains: true
+ put: (19, 21)
+ put: (19, 13)
+ put: (12, 7)
+-height: 0
++height: 8
+ put: (16, 22)
+ put: (28, 14)
+ put: (17, 20)
+-min: null
++min: 0
+ balanced: unrecogized op
+ max: unrecogized op
+ put: (3, 8)
+ leaves: unrecogized op
+ put: (12, 23)
+-get 24 : null
+-inOrder: 
++get 24 : 5
++inOrder: 0:15, 1:1, 2:9, 3:8, 4:13, 5:20, 6:19, 7:20, 8:26, 9:11, 10:29, 11:18, 12:23, 13:8, 14:4, 15:9, 16:22, 17:20, 18:16, 19:13, 20:28, 21:12, 22:23, 23:18, 24:5, 25:4, 26:24, 27:15, 28:14, 29:19
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+-get 0 : null
++get 0 : 15
+ put: (24, 8)
+ put: (7, 21)
+-get 3 : null
+-get 19 : null
++get 3 : 8
++get 19 : 13
+ leaves: unrecogized op
+ rank: unrecogized op
+ put: (1, 14)
+@@ -442,12 +442,12 @@
+ put: (0, 3)
+ put: (14, 8)
+ put: (8, 10)
+-get 1 : null
+-get 11 : null
++get 1 : 14
++get 11 : 18
+ max: unrecogized op
+ put: (19, 19)
+ put: (8, 9)
+-get 28 : null
++get 28 : 14
+ put: (26, 24)
+ put: (0, 9)
+ remove_min_iter: unrecogized op
+@@ -457,7 +457,7 @@
+ put: (3, 22)
+ put: (12, 27)
+ floor: unrecogized op
+-contains: false
++contains: true
+ put: (23, 5)
+ put: (4, 15)
+ put: (7, 14)
+@@ -466,15 +466,15 @@
+ put: (21, 24)
+ rank: unrecogized op
+ put: (18, 20)
+-get 15 : null
++get 15 : 9
+ put: (20, 5)
+ put: (28, 25)
+-get 14 : null
++get 14 : 8
+ put: (10, 27)
+ put: (11, 18)
+ put: (3, 27)
+ put: (29, 17)
+-get 28 : null
++get 28 : 25
+ put: (23, 9)
+ put: (20, 11)
+ put: (15, 5)
+@@ -490,9 +490,9 @@
+ put: (23, 5)
+ put: (24, 28)
+ put: (2, 1)
+-get 22 : null
++get 22 : 23
+ put: (18, 25)
+-get 24 : null
++get 24 : 28
+ balanced: unrecogized op
+ remove_min_r: unrecogized op
+ leaves: unrecogized op
+@@ -502,7 +502,7 @@
+ put: (19, 7)
+ remove_min_r: unrecogized op
+ put: (22, 23)
+-inOrder: 
++inOrder: 0:9, 1:14, 2:1, 3:27, 4:11, 5:5, 6:15, 7:14, 8:26, 9:11, 10:27, 11:23, 12:20, 13:8, 14:8, 15:12, 16:16, 17:20, 18:25, 19:7, 20:29, 21:24, 22:23, 23:5, 24:28, 25:9, 26:26, 27:15, 28:5, 29:17
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -510,7 +510,7 @@
+ put: (13, 15)
+ put: (12, 0)
+ put: (26, 25)
+-get 25 : null
++get 25 : 9
+ put: (26, 25)
+ put: (12, 18)
+ put: (22, 5)
+@@ -527,20 +527,20 @@
+ remove_max_r: unrecogized op
+ put: (26, 5)
+ put: (10, 16)
+-get 18 : null
++get 18 : 24
+ put: (8, 13)
+ put: (26, 14)
+ put: (3, 11)
+ put: (11, 22)
+-get 28 : null
++get 28 : 5
+ put: (28, 10)
+ remove_max_iter: unrecogized op
+ put: (0, 29)
+ size: unrecogized op
+ put: (3, 7)
+ put: (14, 18)
+-get 0 : null
+-contains: false
++get 0 : 29
++contains: true
+ size: unrecogized op
+ remove_max_r: unrecogized op
+ put: (19, 16)
+@@ -559,13 +559,13 @@
+ put: (1, 17)
+ put: (7, 0)
+ put: (18, 0)
+-get 16 : null
++get 16 : 16
+ put: (16, 22)
+ put: (2, 22)
+ put: (7, 19)
+ put: (5, 11)
+ put: (14, 22)
+-get 0 : null
++get 0 : 29
+ put: (1, 27)
+ put: (10, 24)
+ printKeys: unrecogized op
+@@ -581,20 +581,20 @@
+ put: (21, 25)
+ put: (28, 14)
+ remove_min_r: unrecogized op
+-inOrder: 
++inOrder: 0:29, 1:8, 2:22, 3:7, 4:1, 5:11, 6:15, 7:19, 8:13, 9:11, 10:24, 11:22, 12:27, 13:6, 14:12, 15:12, 16:2, 17:14, 18:0, 19:16, 20:26, 21:25, 22:0, 23:14, 24:14, 25:2, 26:14, 27:29, 28:14, 29:17
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+ put: (2, 18)
+-get 27 : null
++get 27 : 29
+ put: (4, 23)
+ put: (18, 13)
+ put: (3, 15)
+ max: unrecogized op
+-get 0 : null
++get 0 : 29
+ put: (16, 24)
+ remove_max_r: unrecogized op
+-get 29 : null
++get 29 : 17
+ put: (7, 15)
+ put: (24, 14)
+ put: (8, 6)
+@@ -604,17 +604,17 @@
+ put: (24, 22)
+ put: (15, 7)
+ put: (6, 13)
+-get 20 : null
++get 20 : 26
+ put: (13, 2)
+ put: (2, 12)
+ put: (12, 6)
+ max: unrecogized op
+ put: (1, 29)
+ remove: unrecogized op
+-height: 0
++height: 8
+ ceiling: unrecogized op
+   FAIL : BST_v2.4.out -- /Users/jlong/work/Gitee/RELEASE-CS201-REPO3/book-solution/sols-repo/chap4/section-4.4/E-4.0.0-BST_v2/BST_v2.4.out 
+--- wdir_bist/E-4.0.0-BST_v2/BST_v2.4.out.actual.FAIL	2026-04-26 16:47:01
++++ /Users/jlong/work/Gitee/RELEASE-CS201-REPO3/book-solution/sols-repo/chap4/section-4.4/E-4.0.0-BST_v2/BST_v2.4.out	2025-08-12 17:23:54
+@@ -8,7 +8,7 @@
+ put: (29, 16)
+ put: (26, 8)
+ rank: unrecogized op
+-contains: false
++contains: true
+ put: (12, 22)
+ remove_max_iter: unrecogized op
+ put: (16, 4)
+@@ -19,28 +19,28 @@
+ put: (8, 20)
+ put: (9, 8)
+ remove_min_r: unrecogized op
+-inOrder: 
++inOrder: 2:13, 5:23, 8:20, 9:8, 11:10, 12:22, 13:8, 16:4, 19:2, 21:14, 24:6, 26:8, 27:8, 29:16
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+ get 15 : null
+ put: (5, 13)
+-inOrder: 
++inOrder: 2:13, 5:13, 8:20, 9:8, 11:10, 12:22, 13:8, 16:4, 19:2, 21:14, 24:6, 26:8, 27:8, 29:16
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+ put: (13, 21)
+ put: (12, 19)
+-inOrder: 
++inOrder: 2:13, 5:13, 8:20, 9:8, 11:10, 12:19, 13:21, 16:4, 19:2, 21:14, 24:6, 26:8, 27:8, 29:16
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+-get 16 : null
++get 16 : 4
+ put: (11, 13)
+-height: 0
++height: 7
+ max: unrecogized op
+ contains: false
+-inOrder: 
++inOrder: 2:13, 5:13, 8:20, 9:8, 11:13, 12:19, 13:21, 16:4, 19:2, 21:14, 24:6, 26:8, 27:8, 29:16
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -70,29 +70,29 @@
+ remove_max_iter: unrecogized op
+ balanced: unrecogized op
+ remove: unrecogized op
+-height: 0
++height: 8
+ put: (19, 9)
+ put: (3, 21)
+ put: (14, 8)
+ put: (25, 1)
+ leaves: unrecogized op
+ put: (4, 13)
+-get 11 : null
++get 11 : 13
+ put: (28, 20)
+ put: (5, 27)
+ put: (10, 10)
+ put: (4, 26)
+ remove_min_r: unrecogized op
+-get 8 : null
++get 8 : 20
+ put: (4, 9)
+ put: (10, 19)
+ put: (6, 2)
+ contains: false
+-get 10 : null
++get 10 : 19
+ put: (6, 15)
+ ceiling: unrecogized op
+ rank: unrecogized op
+-get 6 : null
++get 6 : 15
+ put: (7, 27)
+ put: (13, 7)
+ put: (13, 12)
+@@ -101,7 +101,7 @@
+ put: (11, 24)
+ put: (0, 2)
+ put: (18, 21)
+-contains: false
++contains: true
+ put: (3, 24)
+ put: (5, 17)
+ put: (10, 14)
+@@ -111,8 +111,8 @@
+ put: (17, 3)
+ printKeys: unrecogized op
+ put: (13, 10)
+-get 5 : null
+-inOrder: 
++get 5 : 17
++inOrder: 0:2, 2:13, 3:24, 4:9, 5:17, 6:0, 7:27, 8:20, 9:8, 10:14, 11:24, 12:12, 13:10, 14:8, 15:9, 16:4, 17:3, 18:21, 19:15, 20:0, 21:10, 22:11, 24:26, 25:1, 26:3, 27:5, 28:20, 29:6
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -120,7 +120,7 @@
+ put: (16, 4)
+ put: (22, 12)
+ remove_min_r: unrecogized op
+-height: 0
++height: 8
+ put: (9, 15)
+ put: (9, 12)
+ put: (6, 8)
+@@ -129,12 +129,12 @@
+ put: (21, 13)
+ put: (18, 13)
+ put: (29, 23)
+-height: 0
++height: 8
+ put: (29, 27)
+ put: (20, 12)
+ put: (23, 9)
+ max: unrecogized op
+-get 20 : null
++get 20 : 12
+ put: (23, 3)
+ put: (24, 2)
+ put: (27, 19)
+@@ -143,7 +143,7 @@
+ max: unrecogized op
+ put: (0, 28)
+ put: (17, 28)
+-inOrder: 
++inOrder: 0:28, 2:13, 3:24, 4:2, 5:17, 6:8, 7:27, 8:20, 9:12, 10:14, 11:24, 12:12, 13:10, 14:8, 15:9, 16:4, 17:28, 18:13, 19:28, 20:12, 21:13, 22:12, 23:3, 24:2, 25:1, 26:3, 27:19, 28:20, 29:27
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -155,19 +155,19 @@
+ put: (24, 13)
+ remove_max_r: unrecogized op
+ put: (24, 3)
+-get 0 : null
++get 0 : 28
+ put: (10, 18)
+-get 4 : null
++get 4 : 2
+ remove_max_iter: unrecogized op
+ put: (28, 26)
+ put: (4, 5)
+ put: (13, 1)
+-get 22 : null
++get 22 : 12
+ put: (1, 17)
+ put: (5, 7)
+ printKeys: unrecogized op
+ put: (2, 6)
+-height: 0
++height: 9
+ remove_max_iter: unrecogized op
+ put: (4, 3)
+ put: (18, 17)
+@@ -177,7 +177,7 @@
+ remove: unrecogized op
+ put: (3, 16)
+ put: (28, 24)
+-contains: false
++contains: true
+ put: (9, 6)
+ put: (26, 24)
+ put: (6, 17)
+@@ -195,9 +195,9 @@
+ put: (6, 22)
+ size: unrecogized op
+ put: (27, 18)
+-get 11 : null
++get 11 : 24
+ put: (22, 2)
+-inOrder: 
++inOrder: 0:28, 1:17, 2:6, 3:16, 4:3, 5:7, 6:22, 7:21, 8:20, 9:6, 10:28, 11:24, 12:9, 13:1, 14:12, 15:24, 16:4, 17:28, 18:17, 19:6, 20:12, 21:6, 22:2, 23:9, 24:28, 25:1, 26:24, 27:18, 28:4, 29:27
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -208,20 +208,20 @@
+ put: (17, 17)
+ put: (9, 5)
+ put: (29, 9)
+-get 24 : null
++get 24 : 7
+ put: (0, 3)
+ put: (16, 16)
+ rank: unrecogized op
+ put: (5, 25)
+ put: (4, 1)
+-get 7 : null
++get 7 : 21
+ put: (28, 21)
+ remove_max_r: unrecogized op
+ floor: unrecogized op
+ put: (18, 27)
+ put: (19, 9)
+ put: (0, 14)
+-inOrder: 
++inOrder: 0:14, 1:17, 2:6, 3:16, 4:1, 5:25, 6:18, 7:21, 8:20, 9:5, 10:28, 11:24, 12:9, 13:1, 14:12, 15:24, 16:16, 17:17, 18:27, 19:9, 20:12, 21:6, 22:2, 23:9, 24:7, 25:1, 26:24, 27:18, 28:21, 29:9
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -238,7 +238,7 @@
+ put: (9, 25)
+ put: (20, 2)
+ put: (7, 16)
+-contains: false
++contains: true
+ size: unrecogized op
+ put: (23, 12)
+ put: (6, 15)
+@@ -254,16 +254,16 @@
+ put: (27, 0)
+ put: (4, 6)
+ max: unrecogized op
+-get 21 : null
++get 21 : 6
+ put: (13, 3)
+ put: (23, 24)
+-get 22 : null
++get 22 : 23
+ put: (19, 0)
+ put: (20, 8)
+ leaves: unrecogized op
+ put: (5, 8)
+ put: (23, 22)
+-inOrder: 
++inOrder: 0:23, 1:17, 2:29, 3:16, 4:6, 5:8, 6:17, 7:8, 8:10, 9:25, 10:2, 11:24, 12:9, 13:3, 14:27, 15:24, 16:6, 17:14, 18:27, 19:0, 20:8, 21:6, 22:23, 23:22, 24:25, 25:0, 26:24, 27:0, 28:21, 29:9
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -274,7 +274,7 @@
+ put: (16, 26)
+ put: (21, 8)
+ put: (22, 15)
+-min: null
++min: 0
+ put: (9, 5)
+ put: (24, 8)
+ leaves: unrecogized op
+@@ -289,9 +289,9 @@
+ put: (15, 16)
+ floor: unrecogized op
+ remove_max_r: unrecogized op
+-min: null
++min: 0
+ put: (16, 9)
+-min: null
++min: 0
+ put: (9, 2)
+ put: (24, 6)
+ put: (1, 3)
+@@ -304,17 +304,17 @@
+ put: (2, 9)
+ put: (5, 2)
+ put: (6, 17)
+-get 11 : null
++get 11 : 26
+ put: (27, 17)
+ put: (1, 14)
+ put: (27, 20)
+-get 24 : null
++get 24 : 6
+ put: (10, 13)
+ put: (11, 22)
+ put: (2, 29)
+ put: (24, 22)
+ put: (21, 22)
+-get 13 : null
++get 13 : 3
+ put: (9, 20)
+ put: (19, 1)
+ size: unrecogized op
+@@ -327,7 +327,7 @@
+ max: unrecogized op
+ put: (22, 15)
+ put: (7, 5)
+-inOrder: 
++inOrder: 0:24, 1:14, 2:29, 3:10, 4:13, 5:2, 6:17, 7:5, 8:10, 9:20, 10:13, 11:22, 12:9, 13:3, 14:27, 15:15, 16:9, 17:4, 18:17, 19:29, 20:8, 21:22, 22:15, 23:22, 24:22, 25:0, 26:10, 27:20, 28:21, 29:18
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -337,7 +337,7 @@
+ put: (0, 15)
+ put: (9, 9)
+ put: (23, 17)
+-get 15 : null
++get 15 : 15
+ put: (19, 10)
+ put: (15, 10)
+ put: (23, 12)
+@@ -348,7 +348,7 @@
+ put: (23, 11)
+ printKeys: unrecogized op
+ put: (9, 28)
+-inOrder: 
++inOrder: 0:15, 1:3, 2:29, 3:10, 4:13, 5:2, 6:17, 7:5, 8:10, 9:28, 10:13, 11:23, 12:9, 13:3, 14:27, 15:10, 16:9, 17:4, 18:17, 19:9, 20:8, 21:22, 22:15, 23:11, 24:22, 25:0, 26:10, 27:19, 28:21, 29:18
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -364,7 +364,7 @@
+ printKeys: unrecogized op
+ put: (13, 28)
+ remove_min_r: unrecogized op
+-height: 0
++height: 9
+ remove_min_r: unrecogized op
+ remove_max_iter: unrecogized op
+ put: (18, 25)
+@@ -372,7 +372,7 @@
+ put: (29, 0)
+ put: (27, 7)
+ put: (13, 23)
+-get 28 : null
++get 28 : 21
+ put: (0, 15)
+ put: (11, 27)
+ remove: unrecogized op
+@@ -386,18 +386,18 @@
+ put: (25, 0)
+ leaves: unrecogized op
+ remove_min_iter: unrecogized op
+-inOrder: 
++inOrder: 0:15, 1:3, 2:3, 3:13, 4:13, 5:2, 6:17, 7:20, 8:10, 9:28, 10:19, 11:27, 12:17, 13:23, 14:1, 15:10, 16:9, 17:4, 18:25, 19:1, 20:17, 21:22, 22:15, 23:11, 24:22, 25:0, 26:10, 27:7, 28:21, 29:0
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+ put: (16, 16)
+ put: (27, 1)
+-get 4 : null
++get 4 : 13
+ put: (16, 6)
+-get 6 : null
++get 6 : 17
+ put: (16, 14)
+ put: (12, 16)
+-get 17 : null
++get 17 : 4
+ put: (8, 7)
+ put: (29, 1)
+ put: (28, 18)
+@@ -415,13 +415,13 @@
+ leaves: unrecogized op
+ put: (12, 13)
+ put: (11, 29)
+-inOrder: 
++inOrder: 0:15, 1:14, 2:3, 3:13, 4:13, 5:2, 6:17, 7:20, 8:7, 9:28, 10:19, 11:29, 12:13, 13:23, 14:11, 15:10, 16:23, 17:4, 18:25, 19:1, 20:17, 21:22, 22:15, 23:11, 24:22, 25:13, 26:10, 27:26, 28:18, 29:1
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+ put: (24, 13)
+ put: (22, 16)
+-get 6 : null
++get 6 : 17
+ put: (1, 1)
+ put: (25, 22)
+ put: (28, 0)
+@@ -429,29 +429,29 @@
+ put: (7, 22)
+ put: (20, 0)
+ put: (16, 16)
+-min: null
++min: 0
+ floor: unrecogized op
+ put: (7, 9)
+-inOrder: 
++inOrder: 0:15, 1:1, 2:3, 3:13, 4:13, 5:2, 6:17, 7:9, 8:7, 9:28, 10:19, 11:29, 12:13, 13:23, 14:11, 15:10, 16:16, 17:4, 18:25, 19:1, 20:0, 21:0, 22:16, 23:11, 24:13, 25:22, 26:10, 27:26, 28:0, 29:1
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+-inOrder: 
++inOrder: 0:15, 1:1, 2:3, 3:13, 4:13, 5:2, 6:17, 7:9, 8:7, 9:28, 10:19, 11:29, 12:13, 13:23, 14:11, 15:10, 16:16, 17:4, 18:25, 19:1, 20:0, 21:0, 22:16, 23:11, 24:13, 25:22, 26:10, 27:26, 28:0, 29:1
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+ put: (3, 1)
+-get 21 : null
++get 21 : 0
+ put: (23, 27)
+ balanced: unrecogized op
+-height: 0
+-min: null
++height: 9
++min: 0
+ size: unrecogized op
+ put: (8, 10)
+ put: (4, 18)
+ put: (21, 15)
+ put: (23, 15)
+-inOrder: 
++inOrder: 0:15, 1:1, 2:3, 3:1, 4:18, 5:2, 6:17, 7:9, 8:10, 9:28, 10:19, 11:29, 12:13, 13:23, 14:11, 15:10, 16:16, 17:4, 18:25, 19:1, 20:0, 21:15, 22:16, 23:15, 24:13, 25:22, 26:10, 27:26, 28:0, 29:1
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -467,7 +467,7 @@
+ put: (11, 28)
+ remove_max_r: unrecogized op
+ put: (27, 5)
+-inOrder: 
++inOrder: 0:15, 1:1, 2:3, 3:1, 4:18, 5:2, 6:17, 7:9, 8:12, 9:16, 10:19, 11:28, 12:13, 13:24, 14:11, 15:10, 16:16, 17:23, 18:25, 19:26, 20:0, 21:2, 22:16, 23:15, 24:13, 25:22, 26:10, 27:5, 28:0, 29:1
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -482,7 +482,7 @@
+ put: (2, 20)
+ put: (26, 27)
+ put: (19, 19)
+-inOrder: 
++inOrder: 0:19, 1:15, 2:20, 3:14, 4:18, 5:2, 6:17, 7:9, 8:12, 9:24, 10:19, 11:28, 12:13, 13:18, 14:11, 15:10, 16:16, 17:23, 18:25, 19:19, 20:11, 21:2, 22:16, 23:15, 24:13, 25:22, 26:27, 27:5, 28:0, 29:1
+ rangeSearch: unrecogized op
+ rank: 
+   FAIL : BST_v2.5.out -- /Users/jlong/work/Gitee/RELEASE-CS201-REPO3/book-solution/sols-repo/chap4/section-4.4/E-4.0.0-BST_v2/BST_v2.5.out 
+--- wdir_bist/E-4.0.0-BST_v2/BST_v2.5.out.actual.FAIL	2026-04-26 16:47:01
++++ /Users/jlong/work/Gitee/RELEASE-CS201-REPO3/book-solution/sols-repo/chap4/section-4.4/E-4.0.0-BST_v2/BST_v2.5.out	2025-08-12 17:23:54
+@@ -7,7 +7,7 @@
+ put: (20, 4)
+ get 13 : null
+ put: (20, 20)
+-inOrder: 
++inOrder: 3:20, 20:20, 26:0
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -30,7 +30,7 @@
+ put: (16, 5)
+ put: (3, 18)
+ get 29 : null
+-height: 0
++height: 8
+ put: (23, 14)
+ floor: unrecogized op
+ put: (5, 8)
+@@ -47,7 +47,7 @@
+ put: (0, 10)
+ ceiling: unrecogized op
+ get 7 : null
+-contains: false
++contains: true
+ put: (20, 25)
+ put: (15, 19)
+ floor: unrecogized op
+@@ -57,9 +57,9 @@
+ put: (17, 4)
+ put: (29, 27)
+ put: (24, 8)
+-min: null
++min: 0
+ put: (0, 11)
+-inOrder: 
++inOrder: 0:11, 2:6, 3:18, 5:8, 8:25, 9:10, 10:11, 11:8, 12:22, 15:19, 16:21, 17:4, 18:8, 20:25, 23:25, 24:8, 25:28, 26:0, 27:11, 28:29, 29:27
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -72,7 +72,7 @@
+ put: (28, 10)
+ max: unrecogized op
+ remove_min_r: unrecogized op
+-inOrder: 
++inOrder: 0:11, 2:6, 3:18, 5:8, 6:23, 8:16, 9:10, 10:11, 11:8, 12:22, 15:19, 16:21, 17:4, 18:8, 20:25, 21:17, 23:29, 24:8, 25:28, 26:0, 27:11, 28:10, 29:27
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -92,7 +92,7 @@
+ put: (7, 24)
+ leaves: unrecogized op
+ put: (12, 0)
+-get 5 : null
++get 5 : 8
+ remove_min_r: unrecogized op
+ put: (16, 24)
+ put: (18, 8)
+@@ -118,28 +118,28 @@
+ put: (6, 9)
+ rank: unrecogized op
+ put: (4, 7)
+-height: 0
+-contains: false
++height: 10
++contains: true
+ put: (8, 19)
+ put: (22, 29)
+ put: (12, 20)
+ put: (24, 13)
+ put: (23, 22)
+ remove: unrecogized op
+-inOrder: 
++inOrder: 0:13, 2:6, 3:15, 4:7, 5:8, 6:9, 7:14, 8:19, 9:15, 10:5, 11:8, 12:20, 13:11, 15:19, 16:2, 17:7, 18:24, 19:22, 20:28, 21:20, 22:29, 23:22, 24:13, 25:18, 26:0, 27:29, 28:16, 29:27
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+ max: unrecogized op
+ put: (13, 1)
+ leaves: unrecogized op
+-get 12 : null
++get 12 : 20
+ put: (3, 15)
+ put: (18, 29)
+ put: (6, 27)
+ put: (8, 19)
+ put: (2, 19)
+-get 13 : null
++get 13 : 1
+ put: (27, 18)
+ put: (1, 2)
+ balanced: unrecogized op
+@@ -147,7 +147,7 @@
+ rank: unrecogized op
+ put: (26, 23)
+ ceiling: unrecogized op
+-contains: false
++contains: true
+ put: (16, 27)
+ put: (28, 6)
+ put: (10, 19)
+@@ -157,7 +157,7 @@
+ put: (6, 20)
+ rank: unrecogized op
+ put: (18, 24)
+-inOrder: 
++inOrder: 0:13, 1:14, 2:19, 3:15, 4:7, 5:8, 6:20, 7:14, 8:19, 9:15, 10:19, 11:8, 12:20, 13:1, 15:19, 16:27, 17:7, 18:24, 19:28, 20:6, 21:20, 22:29, 23:22, 24:13, 25:18, 26:23, 27:13, 28:6, 29:27
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -176,48 +176,48 @@
+ max: unrecogized op
+ put: (5, 23)
+ put: (7, 14)
+-contains: false
+-get 26 : null
++contains: true
++get 26 : 23
+ size: unrecogized op
+ put: (5, 15)
+ put: (24, 22)
+ put: (27, 11)
+ put: (7, 29)
+ put: (28, 4)
+-get 29 : null
++get 29 : 27
+ put: (10, 4)
+ remove_max_iter: unrecogized op
+ put: (26, 6)
+ put: (24, 21)
+-inOrder: 
++inOrder: 0:13, 1:3, 2:25, 3:13, 4:7, 5:15, 6:20, 7:29, 8:19, 9:15, 10:4, 11:8, 12:20, 13:3, 15:27, 16:27, 17:7, 18:24, 19:28, 20:6, 21:20, 22:29, 23:22, 24:21, 25:9, 26:6, 27:11, 28:4, 29:27
+ remove_min_iter: unrecogized op
+-inOrder: 
++inOrder: 0:13, 1:3, 2:25, 3:13, 4:7, 5:15, 6:20, 7:29, 8:19, 9:15, 10:4, 11:8, 12:20, 13:3, 15:27, 16:27, 17:7, 18:24, 19:28, 20:6, 21:20, 22:29, 23:22, 24:21, 25:9, 26:6, 27:11, 28:4, 29:27
+ put: (5, 25)
+ put: (28, 16)
+ put: (25, 16)
+ leaves: unrecogized op
+ get 14 : null
+-inOrder: 
++inOrder: 0:13, 1:3, 2:25, 3:13, 4:7, 5:25, 6:20, 7:29, 8:19, 9:15, 10:4, 11:8, 12:20, 13:3, 15:27, 16:27, 17:7, 18:24, 19:28, 20:6, 21:20, 22:29, 23:22, 24:21, 25:16, 26:6, 27:11, 28:16, 29:27
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+ put: (7, 26)
+ put: (15, 16)
+-height: 0
++height: 10
+ put: (14, 9)
+ printKeys: unrecogized op
+-inOrder: 
++inOrder: 0:13, 1:3, 2:25, 3:13, 4:7, 5:25, 6:20, 7:26, 8:19, 9:15, 10:4, 11:8, 12:20, 13:3, 14:9, 15:16, 16:27, 17:7, 18:24, 19:28, 20:6, 21:20, 22:29, 23:22, 24:21, 25:16, 26:6, 27:11, 28:16, 29:27
+ remove_min_iter: unrecogized op
+-inOrder: 
++inOrder: 0:13, 1:3, 2:25, 3:13, 4:7, 5:25, 6:20, 7:26, 8:19, 9:15, 10:4, 11:8, 12:20, 13:3, 14:9, 15:16, 16:27, 17:7, 18:24, 19:28, 20:6, 21:20, 22:29, 23:22, 24:21, 25:16, 26:6, 27:11, 28:16, 29:27
+ put: (5, 8)
+ floor: unrecogized op
+ put: (22, 21)
+ put: (22, 4)
+ put: (12, 21)
+-get 4 : null
++get 4 : 7
+ put: (12, 5)
+ put: (8, 17)
+-min: null
++min: 0
+ put: (27, 1)
+ put: (18, 1)
+ put: (21, 16)
+@@ -233,7 +233,7 @@
+ put: (22, 20)
+ put: (29, 6)
+ put: (24, 10)
+-inOrder: 
++inOrder: 0:13, 1:26, 2:25, 3:13, 4:7, 5:13, 6:20, 7:26, 8:11, 9:15, 10:4, 11:8, 12:5, 13:3, 14:20, 15:16, 16:27, 17:26, 18:1, 19:28, 20:6, 21:16, 22:20, 23:22, 24:10, 25:16, 26:6, 27:1, 28:28, 29:6
+ rangeCount: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -241,7 +241,7 @@
+ put: (28, 12)
+ put: (21, 19)
+ put: (7, 9)
+-min: null
++min: 0
+ put: (26, 4)
+ put: (28, 17)
+ remove: unrecogized op
+@@ -256,9 +256,9 @@
+ put: (16, 17)
+ put: (13, 20)
+ put: (2, 5)
+-get 2 : null
++get 2 : 5
+ put: (27, 22)
+-contains: false
++contains: true
+ put: (19, 4)
+ put: (20, 18)
+ put: (16, 21)
+@@ -272,21 +272,21 @@
+ rank: unrecogized op
+ put: (6, 3)
+ put: (24, 13)
+-inOrder: 
++inOrder: 0:9, 1:26, 2:5, 3:10, 4:7, 5:13, 6:3, 7:10, 8:11, 9:8, 10:4, 11:8, 12:5, 13:20, 14:20, 15:16, 16:21, 17:4, 18:12, 19:4, 20:18, 21:7, 22:20, 23:22, 24:13, 25:16, 26:15, 27:22, 28:17, 29:6
+ remove_min_iter: unrecogized op
+-inOrder: 
++inOrder: 0:9, 1:26, 2:5, 3:10, 4:7, 5:13, 6:3, 7:10, 8:11, 9:8, 10:4, 11:8, 12:5, 13:20, 14:20, 15:16, 16:21, 17:4, 18:12, 19:4, 20:18, 21:7, 22:20, 23:22, 24:13, 25:16, 26:15, 27:22, 28:17, 29:6
+ put: (6, 7)
+ rank: unrecogized op
+-min: null
++min: 0
+ put: (12, 9)
+ remove_min_r: unrecogized op
+ put: (13, 24)
+ put: (19, 15)
+-get 29 : null
++get 29 : 6
+ put: (25, 28)
+ put: (3, 8)
+ put: (8, 29)
+-get 12 : null
++get 12 : 9
+ put: (0, 17)
+ put: (6, 28)
+ put: (14, 8)
+@@ -294,8 +294,8 @@
+ put: (17, 3)
+ put: (29, 1)
+ balanced: unrecogized op
+-get 0 : null
+-inOrder: 
++get 0 : 17
++inOrder: 0:17, 1:26, 2:5, 3:8, 4:7, 5:13, 6:28, 7:10, 8:29, 9:8, 10:4, 11:8, 12:9, 13:24, 14:8, 15:16, 16:21, 17:3, 18:12, 19:15, 20:18, 21:7, 22:19, 23:22, 24:13, 25:28, 26:15, 27:22, 28:17, 29:1
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -310,9 +310,9 @@
+ put: (13, 1)
+ printKeys: unrecogized op
+ put: (2, 18)
+-inOrder: 
++inOrder: 0:17, 1:26, 2:18, 3:8, 4:7, 5:13, 6:28, 7:26, 8:29, 9:8, 10:4, 11:1, 12:9, 13:1, 14:8, 15:16, 16:21, 17:3, 18:12, 19:15, 20:28, 21:7, 22:23, 23:22, 24:13, 25:18, 26:18, 27:22, 28:17, 29:1
+ remove_min_iter: unrecogized op
+-inOrder: 
++inOrder: 0:17, 1:26, 2:18, 3:8, 4:7, 5:13, 6:28, 7:26, 8:29, 9:8, 10:4, 11:1, 12:9, 13:1, 14:8, 15:16, 16:21, 17:3, 18:12, 19:15, 20:28, 21:7, 22:23, 23:22, 24:13, 25:18, 26:18, 27:22, 28:17, 29:1
+ put: (10, 19)
+ put: (3, 28)
+ put: (10, 27)
+@@ -335,7 +335,7 @@
+ put: (13, 10)
+ put: (25, 9)
+ put: (7, 8)
+-height: 0
++height: 11
+ put: (2, 25)
+ put: (6, 23)
+ put: (23, 28)
+@@ -350,9 +350,9 @@
+ put: (15, 25)
+ put: (21, 22)
+ remove_min_r: unrecogized op
+-get 29 : null
+-min: null
+-inOrder: 
++get 29 : 1
++min: 0
++inOrder: 0:17, 1:26, 2:25, 3:29, 4:4, 5:13, 6:23, 7:8, 8:9, 9:8, 10:27, 11:21, 12:17, 13:10, 14:8, 15:25, 16:15, 17:3, 18:12, 19:15, 20:25, 21:22, 22:23, 23:28, 24:9, 25:9, 26:10, 27:22, 28:4, 29:1
+ rangeSearch: unrecogized op
+ rank: unrecogized op
+ rank: unrecogized op
+@@ -371,31 +371,31 @@
+ put: (22, 1)
+ put: (23, 18)
+ put: (1, 0)
+-contains: false
++contains: true
+ remove_max_iter: unrecogized op
+ put: (11, 2)
+ put: (18, 18)
+-min: null
+-get 1 : null
+-get 12 : null
++min: 0
++get 1 : 0
++get 12 : 17
+ leaves: unrecogized op
+-get 16 : null
++get 16 : 15
+ put: (4, 1)
+ remove: unrecogized op
+ put: (15, 23)
+ put: (27, 9)
+-get 11 : null
++get 11 : 2
+ put: (4, 28)
+-get 18 : null
++get 18 : 18
+ put: (16, 7)
+ rank: unrecogized op
+ put: (8, 24)
+-contains: false
+-inOrder: 
++contains: true
++inOrder: 0:17, 1:0, 2:13, 3:29, 4:28, 5:25, 6:23, 7:8, 8:24, 9:8, 10:27, 11:2, 12:17, 13:10, 14:0, 15:23, 16:7, 17:9, 18:18, 19:9, 20:25, 21:22, 22:1, 23:18, 24:9, 25:9, 26:10, 27:9, 28:3, 29:1
+ remove_min_iter: unrecogized op
+-inOrder: 
++inOrder: 0:17, 1:0, 2:13, 3:29, 4:28, 5:25, 6:23, 7:8, 8:24, 9:8, 10:27, 11:2, 12:17, 13:10, 14:0, 15:23, 16:7, 17:9, 18:18, 19:9, 20:25, 21:22, 22:1, 23:18, 24:9, 25:9, 26:10, 27:9, 28:3, 29:1
+ put: (7, 13)
+-get 24 : null
++get 24 : 9
+ put: (25, 12)
+ printKeys: unrecogized op
+ put: (24, 12)
+@@ -403,18 +403,18 @@
+ put: (16, 6)
+ put: (13, 14)
+ put: (5, 26)
+-get 2 : null
+-get 1 : null
++get 2 : 13
++get 1 : 0
+ put: (18, 13)
+-get 25 : null
++get 25 : 12
+ rank: unrecogized op
+ put: (6, 26)
+ put: (14, 16)
+ remove_min_r: unrecogized op
+ put: (2, 23)
+-inOrder: 
++inOrder: 0:17, 1:0, 2:23, 3:29, 4:28, 5:26, 6:26, 7:13, 8:24, 9:8, 10:27, 11:2, 12:17, 13:14, 14:16, 15:23, 16:6, 17:9, 18:13, 19:9, 20:25, 21:22, 22:1, 23:18, 24:0, 25:12, 26:10, 27:9, 28:3, 29:1
+ remove_min_iter: unrecogized op
+-inOrder: 
++inOrder: 0:17, 1:0, 2:23, 3:29, 4:28, 5:26, 6:26, 7:13, 8:24, 9:8, 10:27, 11:2, 12:17, 13:14, 14:16, 15:23, 16:6, 17:9, 18:13, 19:9, 20:25, 21:22, 22:1, 23:18, 24:0, 25:12, 26:10, 27:9, 28:3, 29:1
+ put: (10, 5)
+ put: (13, 24)
+ put: (10, 12)
+@@ -427,24 +427,24 @@
+ put: (26, 8)
+ put: (8, 17)
+ put: (23, 16)
+-min: null
++min: 0
+ put: (1, 20)
+ put: (26, 24)
+ put: (14, 22)
+ put: (24, 12)
+-get 29 : null
++get 29 : 25
+ put: (25, 21)
+ put: (9, 21)
+-height: 0
++height: 11
+ put: (21, 3)
+ put: (22, 6)
+ remove_min_r: unrecogized op
+-get 15 : null
+-inOrder: 
++get 15 : 23
++inOrder: 0:17, 1:20, 2:23, 3:29, 4:28, 5:26, 6:26, 7:13, 8:17, 9:21, 10:12, 11:5, 12:17, 13:24, 14:22, 15:23, 16:6, 17:9, 18:13, 19:9, 20:25, 21:3, 22:6, 23:16, 24:12, 25:21, 26:24, 27:9, 28:28, 29:25
+ remove_min_iter: unrecogized op
+-inOrder: 
+-height: 0
+-get 25 : null
++inOrder: 0:17, 1:20, 2:23, 3:29, 4:28, 5:26, 6:26, 7:13, 8:17, 9:21, 10:12, 11:5, 12:17, 13:

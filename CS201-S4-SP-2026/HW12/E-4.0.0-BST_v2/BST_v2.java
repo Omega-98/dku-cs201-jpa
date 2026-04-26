@@ -4,7 +4,7 @@ public class BST_v2<Key extends Comparable<Key>, Value> {
     // Instance variable: root
     //------------------------------------------------------------
     // Complete the code here, see README on course website for problem description and instructions.
-    private Node = null;
+    private Node root = null;
     
     public class Node {
         //------------------------------------------------------------
@@ -13,19 +13,16 @@ public class BST_v2<Key extends Comparable<Key>, Value> {
         // Complete the code here, see README on course website for problem description and instructions.
         private Key key;
         private Value val;
-        private Node Left;
+        private Node left;
         private Node right;
-        
         //------------------------------------------------------------
         // Constructor
         //------------------------------------------------------------
         // Complete the code here, see README on course website for problem description and instructions.
         public Node(Key key, Value val){
             this.key = key;
-            this val = val;
+            this.val = val;
         }
-
-        
         public String toString() {
             return key + ":" + val;
         }
@@ -54,7 +51,7 @@ public class BST_v2<Key extends Comparable<Key>, Value> {
         if(x==null){
             return null;
         }
-        int compare = x.compareTo(x.key);
+        int compare = key.compareTo(x.key);
         if(compare > 0){
             return get(x.right, key);
         }else if(compare < 0){
@@ -81,13 +78,13 @@ public class BST_v2<Key extends Comparable<Key>, Value> {
         // adapt verbatim from the textbook
         // Complete the code here, see README on course website for problem description and instructions.
         if(x == null){return new Node(key, val);}
-        int compare = x.compareTo(x.key);
+        int compare = key.compareTo(x.key);
         if(compare > 0){
             x.right = put(x.right, key, val);
         }else if(compare < 0){
             x.left =  put(x.left, key, val);
         }else{
-            x = x.val;
+            x.val = val;
         }
         return x;
 
@@ -97,19 +94,19 @@ public class BST_v2<Key extends Comparable<Key>, Value> {
     public Iterable<Node> inOrder() {
         // adapt from textbook, and call inorder 
         // Complete the code here, see README on course website for problem description and instructions.
-
-
-
+        Queue<Node> q = new Queue<Node>();
+        inorder(root, q);
+        return q;
 
     } 
     
     public void inorder(Node node, Queue<Node> q){
         
         // Complete the code here, see README on course website for problem description and instructions.
-        if(x==null){return;}
-        inorder(x.left, queue);
-        queue.enqueue(x.key);
-        inorder(x.right, queue);
+        if(node==null){return;}
+        inorder(node.left, q);
+        q.enqueue(node); // put node by QUEUE method
+        inorder(node.right, q);
         
     }
     
@@ -134,14 +131,14 @@ public class BST_v2<Key extends Comparable<Key>, Value> {
     
     public int height() {
         // Complete the code here, see README on course website for problem description and instructions.
-
-
-
-
+        return height_r(root);
     }
     private int height_r(Node node){
         // Complete the code here, see README on course website for problem description and instructions.
-
+        if(node == null){
+            return 0;
+        }
+        return 1 + Math.max(height_r(node.left), height_r(node.right));
 
 
 
@@ -170,10 +167,14 @@ public class BST_v2<Key extends Comparable<Key>, Value> {
     // ------------------------------------------------------------
     private Key min_r(Node node) {
         // Complete the code here, see README on course website for problem description and instructions.
-
-
-
-
+        if(node == null){
+            return null;
+        }
+        if(node.left == null){
+            return node.key;
+        }else{
+            return min_r(node.left);
+        }
     }
     
     // ------------------------------------------------------------
@@ -181,10 +182,13 @@ public class BST_v2<Key extends Comparable<Key>, Value> {
     // ------------------------------------------------------------
     private Key min_iter(Node node){
         // Complete the code here, see README on course website for problem description and instructions.
-
-
-
-
+        if(node == null){
+            return null;
+        }
+        while(node.left != null){
+            node = node.left;
+        }
+        return node.key;
     }
     
     
@@ -233,10 +237,8 @@ public class BST_v2<Key extends Comparable<Key>, Value> {
 
         // declare stack and bst here
         // Complete the code here, see README on course website for problem description and instructions.
-
-
-
-
+        Stack<Integer> stack = new Stack<Integer>();
+        BST_v2<Integer, Integer> bst = new BST_v2<Integer, Integer>();
 
         // don't touch below
         while (!StdIn.isEmpty()){
