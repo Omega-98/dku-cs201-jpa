@@ -66,7 +66,7 @@ public class BST_v2<Key extends Comparable<Key>, Value> {
 
         // adapt verbatim from the textbook
         // Complete the code here, see README on course website for problem description and instructions.
-
+        root = put(root, key, val);
 
 
 
