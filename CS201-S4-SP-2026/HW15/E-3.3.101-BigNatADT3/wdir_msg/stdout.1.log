@@ -1,0 +1,8 @@
+input: x = 123
+input: y = 4567
+add: 123 + 4567 = 04690
+add: 4567 + 123 = 04690
+check: true
+times: 123 * 4567  = 0561741
+times: 4567 * 123  = 0561741
+check: true

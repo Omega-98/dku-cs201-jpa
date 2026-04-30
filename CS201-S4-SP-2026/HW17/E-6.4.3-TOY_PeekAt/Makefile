@@ -3,35 +3,26 @@
 CLIENT = "../../../bin/sag-client-release/sag_client.py"
 TARGET = TOY_PeekAt.java
 COMPILE = javac
-.PHONY: submit client info status compile init-pull check-python
+.PHONY: submit client info status compile init-pull
 
-.PHONY: check-python
-
-check-python:
-	@echo "Checking for Python..."
-	@(command -v python >/dev/null 2>&1 || where python >nul 2>nul) && \
-		(echo "✅ Python found: $$(python --version 2>&1 || python3 --version)") || \
-		(echo "❌ Python not found, please install it." && exit 1)
-
-
-info: check-python
+info:
 	@echo "Usage: make submit|info|client|status|hw_stat|compile"
 
-compile: check-python
+compile:
 	/bin/rm -f *.class
 	${COMPILE} ${TARGET}
 
-submit: check-python
+submit: 
 	@${CLIENT}  submit 
 
-status: check-python
+status:
 	@${CLIENT}   status 
 
-hw_stat: check-python
+hw_stat:
 	@${CLIENT}  hw_stat 
 
-rpt: check-python
+rpt:
 	@${CLIENT}  rpt
 
-init-pull: check-python
+init-pull:
 	@${CLIENT} init-pull 

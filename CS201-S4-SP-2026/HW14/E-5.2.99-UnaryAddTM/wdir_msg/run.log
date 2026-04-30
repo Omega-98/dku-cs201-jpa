@@ -1,0 +1,10 @@
+   FAIL : UnaryAddTM.1.out -- /Users/jlong/work/Gitee/RELEASE-CS201-REPO3/book-solution/sols-repo/chap5/section-5.2/E-5.2.99-UnaryAddTM/UnaryAddTM.1.out 
+diff stdout(up to 1000 lines):                                            ......
+=============================
+    - Halt   1 1 1 + 1 1 = 1 1 1 1 1
+
+   FAIL : UnaryAddTM.2.out -- /Users/jlong/work/Gitee/RELEASE-CS201-REPO3/book-solution/sols-repo/chap5/section-5.2/E-5.2.99-UnaryAddTM/UnaryAddTM.2.out 
+diff stdout(up to 1000 lines):                                            ......
+=============================
+    - Halt   1 1 1 1 + 1 1 1 1 1 1 = 1 1 1 1 1 1 1 1 1 1
+
