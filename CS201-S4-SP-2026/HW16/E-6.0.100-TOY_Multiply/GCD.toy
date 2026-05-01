@@ -1,0 +1,22 @@
+10: 8AFF    # read R[A]
+11: 8BFF    # read R[B]
+12: CB1E    # if R[B] == 0 goto 1E (end -> write A then halt)
+
+# outer loop start (0x12)
+13: 1CA0    # R12 = R10  (save A)
+14: 2DAB    # R13 = R10 - R11  (sub = A - B)
+15: CD1A    # if R13 == 0 goto 1A
+16: DD1A    # if R13  > 0 goto 1A
+
+# fall-through: A < B -> swap A <- B ; B <- saved A
+17: 1AB0    # R10 = R11   (A = B)
+18: 1BC0    # R11 = R12   (B = saved A)
+19: F012    # goto 12     (repeat: check B==0)
+
+# setA: A = sub (A = A - B), then repeat
+1A: 1AD0    # R10 = R13   (A = sub)
+1B: F012    # goto 12
+
+# end: write A and halt (write at 0x1E, halt at 0x1F)
+1E: 9AFF    # write R[A]
+1F: 0000    # halt

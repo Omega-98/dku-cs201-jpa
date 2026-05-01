@@ -1,15 +1,6 @@
-Error: Main method not found in class InsertionSortTrace, please define the main method as:
-   public static void main(String[] args)
-or a JavaFX application class must extend javafx.application.Application
-        0.04 real         0.02 user         0.01 sys
+        0.05 real         0.03 user         0.01 sys
 
-Error: Main method not found in class InsertionSortTrace, please define the main method as:
-   public static void main(String[] args)
-or a JavaFX application class must extend javafx.application.Application
-        0.05 real         0.03 user         0.02 sys
+        0.06 real         0.04 user         0.02 sys
 
-Error: Main method not found in class InsertionSortTrace, please define the main method as:
-   public static void main(String[] args)
-or a JavaFX application class must extend javafx.application.Application
-        0.05 real         0.02 user         0.02 sys
+        0.04 real         0.04 user         0.01 sys
 

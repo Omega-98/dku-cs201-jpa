@@ -7,4 +7,4 @@
 16: 0000    # halt
 1A: 1CCA    # R[C] = R[C] + R[A]
 1B: 2BB1    # R[B] = R[B] - R1
-1C: F014    # goto 14  (jump-and-link used as unconditional jump; reg[0] will be reset to 0 automatically)
+1C: F014    # goto 14
