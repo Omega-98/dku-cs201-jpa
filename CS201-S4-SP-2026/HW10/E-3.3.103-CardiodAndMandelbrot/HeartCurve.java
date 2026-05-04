@@ -21,21 +21,22 @@ public class HeartCurve {
         StdDraw.setPenColor(StdDraw.PINK);
         StdDraw.setPenRadius(0.005);
         double a = 0.25;
+        double scale = 2.0;
 
         double N = 360;
 
-        double x0 = 0.25, y0 = 0;
+        double x0 = 0.25 * scale, y0 = 0;
 
         for (double t = 0.0; t <= N; t += 0.1) {
             double theta = Math.toRadians(t);
             double c = Math.cos(theta);
             double u = 2 * a * (1 - c);
 
-            double x1 = u * c;
-            double y1 = u * Math.sin(theta);
+            double x1 = u * c * scale;
+            double y1 = u * Math.sin(theta) * scale;
 
             Point p = turnLeft(x1, y1, Math.PI / 2);
-            p = moveRight(p, 0.25);
+            p = moveRight(p, 0.5 * scale);
 
             StdDraw.line(x0, y0, p.x, p.y);
 

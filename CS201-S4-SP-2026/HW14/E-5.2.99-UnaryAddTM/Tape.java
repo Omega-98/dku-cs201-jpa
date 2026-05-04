@@ -44,52 +44,65 @@ public class Tape {
         current = right.pop();
     }
     public String toString() {
-        // Complete the code here, see README on course website for problem description and instructions.
-        Stack<Character> temp = new Stack<Character>();
-        
-        
+        // Build the result by collecting all tape contents
+        Stack<Character> allChars = new Stack<Character>();
+
+        // Left side in reverse order (pop from left, push to allChars)
+        Stack<Character> leftReversed = new Stack<Character>();
         while (!left.isEmpty()) {
-            temp.push(left.pop());
+            leftReversed.push(left.pop());
         }
-        temp.push(current);
+        while (!leftReversed.isEmpty()) {
+            allChars.push(leftReversed.pop());
+        }
+
+        // Current
+        allChars.push(current);
+
+        // Right side (pop from right, push to allChars)
+        Stack<Character> rightReversed = new Stack<Character>();
         while (!right.isEmpty()) {
-            temp.push(right.pop());
+            rightReversed.push(right.pop());
         }
-        
-        
-        java.util.List<Character> chars = new java.util.ArrayList<Character>();
-        while (!temp.isEmpty()) {
-            char c = temp.pop();
-            if (c != '#') {  // Skip '#' symbols
-                chars.add(c);
+        while (!rightReversed.isEmpty()) {
+            allChars.push(rightReversed.pop());
+        }
+
+        // Build input part (before =) and result part (after =)
+        // First pass: collect all non-# characters in order
+        java.util.List<Character> tapeList = new java.util.ArrayList<Character>();
+        while (!allChars.isEmpty()) {
+            char c = allChars.pop();
+            if (c != '#') {
+                tapeList.add(c);
             }
         }
-        
-        // Now build the result with spaces
-        StringBuilder result = new StringBuilder();
-        for (int i = 0; i < chars.size(); i++) {
-            result.append(chars.get(i));
-            if (i < chars.size() - 1) {
-                result.append(" ");
-            }
-        }
-        
-        
-        StringBuilder formattedResult = new StringBuilder();
+
+        // tapeList now has all non-# chars in reverse order (from pop)
+        // Reverse it to get correct order
+        java.util.Collections.reverse(tapeList);
+
+        // The input part is from original input (skip #)
+        // The result part is tapeList (which should be the current tape state)
+        StringBuilder inputPart = new StringBuilder();
         boolean first = true;
         for (int i = 0; i < originalInput.length(); i++) {
             char c = originalInput.charAt(i);
-            if (c != '#') {  // Skip '#' symbols
-                if (!first) {
-                    formattedResult.append(" ");
-                }
-                formattedResult.append(c);
+            if (c != '#') {
+                if (!first) inputPart.append(" ");
+                inputPart.append(c);
                 first = false;
             }
         }
-        formattedResult.append(" = ");
-        formattedResult.append(result.toString());
-        
-        return formattedResult.toString();
+
+        StringBuilder resultPart = new StringBuilder();
+        first = true;
+        for (char c : tapeList) {
+            if (!first) resultPart.append(" ");
+            resultPart.append(c);
+            first = false;
+        }
+
+        return inputPart.toString() + " = " + resultPart.toString();
     }
 }
